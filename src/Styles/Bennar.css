@@ -1,0 +1,597 @@
+*{
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    width: 1370px;
+    max-width: 100%;
+    margin: 0px auto;
+}
+.bennar-text{
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 10;
+}
+.bennar-text h1{
+    color: rgb(255, 255, 255);
+    font-family: "GT Walsheim Medium", "GT Walsheim Medium Placeholder", sans-serif;
+    font-size: 90px;
+    letter-spacing: -0.06em;
+    line-height: 1.1em;
+    width: 50%;
+    font-weight: 600;
+}
+.bennar-text p{
+    color: rgb(255 255 255 / 60%);
+    font-family: "Inter Variable", "Inter Placeholder", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 18px;
+}
+.bennar-button{
+    margin-top: 30px;
+}
+.start-button a{
+    font-family: "Inter Variable", "Inter Placeholder", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: rgb(255, 255, 255);
+    border-radius: 100px;
+    color: black;
+    letter-spacing: -0.02em;
+    line-height: 1em;
+    text-align: center;
+    padding: 10px 17px;
+    margin-right: 10px;
+}
+.video-button a{
+    font-family: "Inter Variable", "Inter Placeholder", sans-serif;
+    font-size: 15px;
+    font-weight: 560;
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 100px;
+    color: rgb(255, 255, 255);
+    letter-spacing: -0.02em;
+    line-height: 1em;
+    text-align: center;
+    padding: 10px 17px;
+    margin-left: 10px;
+}
+.bennar-card {
+    background-image: url('../assets/bennar.avif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: inherit;
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 1500px;
+    border-radius: inherit;
+    object-position: center;
+    object-fit: cover;
+    
+}
+.bennar-Layout-button{
+    position: absolute;
+    top: 200px;
+    left: 168px;
+}
+.bennar-Layout-button button{
+    color: aliceblue;
+    backdrop-filter: blur(10px);
+    background-color: #ffffff1a;
+    border-radius: 20px;
+    filter: saturate(1.4);
+
+}
+.bennar-Layout-button button a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: "GT Walsheim Medium", "GT Walsheim Medium Placeholder", sans-serif;
+    font-size: 14px;
+    font-weight: 200;
+    padding: 10px 20px;
+}
+.bennar-item{
+    position: absolute;
+    top: 250px;
+    left: 165px;
+    background-color: rgb(0, 0, 0);
+    width: 80%;
+    height: 1014px;
+    filter: drop-shadow(0px 0px 5px rgb(72, 71, 71));
+    padding: 15px;
+    box-shadow: 0px 0px 4px 1px #000000;
+    border-radius: 20px;
+    /* background-attachment: fixed; */
+    /* mask: linear-gradient(rgb(0, 0, 0) 27%, rgba(0, 0, 0, 0) 74%); */
+}
+.bennar-item-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bennar-item-1-img1 img{
+    width: 280px;
+}
+.bennar-item-1-img2 img{
+    width: 300px;
+}
+.bennar-item-2{
+    display: flex;
+    justify-content: space-between;
+}
+.bennar-item-2-img1 img{
+    width: 250px;
+}
+.bennar-item-2-img2 img{
+    width: 575px;
+    padding-top: 100px;
+}
+.bennar-item-2-img3 img{
+    position: relative;
+    z-index: 1;
+    width: 250px;
+    background-color: #000000;
+}
+.bennar-item-4{
+    position: absolute;
+    top: 195px;
+    right: 80px;
+}
+.bennar-item-4 img{
+    width: 220px;
+    border-radius: 8px;
+    filter: grayscale(70%);
+}
+.bennar-item-2-img1 , .bennar-item-2-img3{
+    width: 20%;
+}
+.bennar-item-2-img2{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to top, rgb(0 0 0), rgb(32 32 32));
+}
+.bennar-item-3-img1 {
+    position: absolute;
+    bottom: 180px;
+    left: -35px;
+}
+.bennar-item-3-img1 img{
+    width: 230px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 4px 2px #2c2c2c;
+}
+.bennar-item-3-img2{
+    position: absolute;
+    bottom: 115px;
+    right: -50px;
+    z-index: 2;
+}
+.bennar-item-3-img2 img{
+    width: 230px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 4px 2px #2c2c2c;
+}
+.bennar-card2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bennar-text-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0px;
+    width: 50%;
+}
+.bennar-card2:hover .bennar-text-img-2 {
+    opacity: 1;
+}
+.bennar-card2:hover .bennar-text-img-1 img {
+    opacity: 0.3;
+    filter: blur(3px);
+}
+.bennar-text-img-1{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s linear;
+}
+.bennar-text-img-1 img{
+    width: 150px;
+    margin: 15px;
+    transition: opacity 0.2s ease-in-out;
+}
+.bennar-text-img-2{
+    color: #fff;
+    font-family: "GT Walsheim Medium", "GT Walsheim Medium Placeholder", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    opacity: 0;
+    position: absolute;
+    transition: opacity 0.2s ease-in-out;
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+    .bennar-text h1 {
+        font-size: 66px;
+        width: 50%;
+    }
+    .bennar-text p {
+        font-size: 18px;
+    }
+    .bennar-text-img {
+        width: 75%;
+    }
+    .bennar-item-1-img1 img {
+        width: 250px;
+    }
+    .bennar-item-1-img2 img {
+        width: 250px;
+    }
+    .bennar-item-2-img2 img {
+        width: 350px;
+        padding-top: 75px
+    }
+    .bennar-item-2-img1 img {
+        width: 160px;
+    }
+    .bennar-item-2-img3 img {
+        width: 160px;
+    }
+    .bennar-item-4 {
+        position: absolute;
+        top: 150px;
+    }
+    .bennar-item-4 img {
+        width: 135px;
+    }
+    .bennar-item-3-img1 img {
+        width: 160px;
+    }
+    .bennar-item-3-img2 img {
+        width: 160px;
+    }
+    .bennar-item {
+        position: absolute;
+        top: 326px;
+        left: 110px;
+        width: 80%;
+        height: 682px;
+    }
+    .bennar-card {
+        background-size: cover;
+        width: 100%;
+        height: 1249px;
+    }
+    .bennar-Layout-button {
+        top: 275px;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .bennar-text h1 {
+        font-size: 50px;
+        width: 50%;
+    }
+    .bennar-text {
+        top: 125px;
+    }
+    .bennar-text p {
+        font-size: 15px;
+    }
+    .bennar-text-img {
+        width: 100%;
+    }
+    .bennar-text-img-1 img {
+        width: 125px;
+    }
+    .bennar-item-1-img1 img {
+        display: none;
+    }
+    .bennar-item-1-img2 img {
+        width: 350px;
+    }
+    .bennar-item-2-img2 img {
+        width: 400px;
+        padding-top: 75px;
+    }
+    .bennar-item-2-img1 {
+        display: none;
+    }
+     .bennar-item-2-img3 {
+        width: 30%;
+    }
+    .bennar-item-2-img3 img {
+        width: 200px;
+    }
+    .bennar-item-2-img2 {
+        width: 70%;
+    }
+    .bennar-item-4 {
+        position: absolute;
+        top: 150px;
+        display: none;
+    }
+    .bennar-item-3-img1 img {
+        display: none;
+    }
+    .bennar-item-3-img2{
+        right: 90px;
+    }
+    .bennar-item-3-img2 img {
+        width: 200px;
+    }
+    .bennar-item {
+        position: absolute;
+        top: 230px;
+        left: 0px;
+        width: 90%;
+        height: 853px;
+    }
+    .bennar-card {
+        background-image: none;
+        height: 1305px;
+    }
+    .bennar-Layout-button {
+        display: none;
+    }
+
+}
+@media only screen and (min-width: 425px) and (max-width: 767px) {
+    .bennar-text h1 {
+        font-size: 40px;
+        width: 60%;
+    }
+    .bennar-text {
+        top: 125px;
+    }
+    .bennar-text p {
+        font-size: 15px;
+        width: 40%
+    }
+    .start-button a {
+        font-size: 12px;
+        padding: 10px 17px;
+        margin-right: 7px;
+    }
+    .video-button a {
+        font-size: 12px;
+        padding: 10px 17px;
+        margin-left: 7px;
+    }
+    .bennar-text-img {
+        width: 100%;
+    }
+    .bennar-text-img-1 img {
+        width: 65px;
+    }
+    .bennar-item-1-img1 img {
+        display: none;
+    }
+    .bennar-item-1-img2 img {
+        width: 350px;
+        margin-bottom: 10px;
+    }
+    .bennar-item-2-img2 img {
+        width: 215px;
+        padding-top: 30px;
+    }
+    .bennar-item-2-img1 {
+        display: none;
+    }
+     .bennar-item-2-img3 {
+        width: 30%;
+    }
+    .bennar-item-2-img3 img {
+        width: 200px;
+    }
+    .bennar-item-2-img2 {
+        width: 70%;
+    }
+    .bennar-item-4 {
+        position: absolute;
+        top: 150px;
+        display: none;
+    }
+    .bennar-item-3-img1 img {
+        display: none;
+    }
+    .bennar-item-3-img2{
+        right: 90px;
+    }
+    .bennar-item-3-img2 img {
+        width: 100px;
+    }
+    .bennar-item {
+        position: absolute;
+        top: 230px;
+        left: 0px;
+        width: 90%;
+        height: 500px;
+    }
+    .bennar-card {
+        background-image: none;
+        height: 855px;
+    }
+    .bennar-Layout-button {
+        display: none;
+    }
+}
+@media only screen and (min-width: 375px) and (max-width: 424px) {
+    .bennar-text h1 {
+        font-size: 40px;
+        width: 75%;
+    }
+    .bennar-text {
+        top: 125px;
+    }
+    .bennar-text p {
+        font-size: 15px;
+        width: 40%
+    }
+    .start-button a {
+        font-size: 12px;
+        padding: 10px 17px;
+        margin-right: 7px;
+    }
+    .video-button a {
+        font-size: 12px;
+        padding: 10px 17px;
+        margin-left: 7px;
+    }
+    .bennar-text-img {
+        width: 100%;
+    }
+    .bennar-text-img-1 img {
+        width: 65px;
+        margin: 10px 0px 10px 0px;
+    }
+    .bennar-item-1-img1 img {
+        display: none;
+    }
+    .bennar-item-1-img2 img {
+        width: 350px;
+        margin-bottom: 10px;
+    }
+    .bennar-item-2-img2 img {
+        width: 180px;
+        padding-top: 30px;
+    }
+    .bennar-item-2-img1 {
+        display: none;
+    }
+     .bennar-item-2-img3 {
+        width: 30%;
+    }
+    .bennar-item-2-img3 img {
+        width: 200px;
+    }
+    .bennar-item-2-img2 {
+        width: 70%;
+    }
+    .bennar-item-4 {
+        position: absolute;
+        top: 150px;
+        display: none;
+    }
+    .bennar-item-3-img1 img {
+        display: none;
+    }
+    .bennar-item-3-img2{
+        right: 90px;
+    }
+    .bennar-item-3-img2 img {
+        width: 100px;
+    }
+    .bennar-item {
+        position: absolute;
+        top: 230px;
+        left: 0px;
+        width: 90%;
+        height: 500px;
+    }
+    .bennar-card {
+        background-image: none;
+        height: 855px;
+    }
+    .bennar-Layout-button {
+        display: none;
+    }
+}
+@media only screen and (min-width: 320px) and (max-width: 374px) {
+    .bennar-text h1 {
+        font-size: 40px;
+        width: 75%;
+    }
+    .bennar-text {
+        top: 125px;
+    }
+    .bennar-text p {
+        font-size: 15px;
+        width: 40%;
+        margin: 0px;
+    }
+    .bennar-button {
+        margin-top: 10px;
+    }
+    .start-button a {
+        font-size: 10px;
+        padding: 10px 17px;
+        margin-right: 5px;
+    }
+    .video-button a {
+        font-size: 10px;
+        padding: 10px 17px;
+        margin-left: 5px;
+    }
+    .bennar-text-img {
+        width: 100%;
+    }
+    .bennar-text-img-1 img {
+        width: 65px;
+        margin: 10px 0px 10px 0px;
+    }
+    .bennar-item-1-img1 img {
+        display: none;
+    }
+    .bennar-item-1-img2 img {
+        width: 350px;
+        margin-bottom: 10px;
+    }
+    .bennar-item-2-img2 img {
+        width: 150px;
+        padding-top: 30px;
+    }
+    .bennar-item-2-img1 {
+        display: none;
+    }
+     .bennar-item-2-img3 {
+        width: 30%;
+    }
+    .bennar-item-2-img3 img {
+        width: 200px;
+    }
+    .bennar-item-2-img2 {
+        width: 70%;
+    }
+    .bennar-item-4 {
+        position: absolute;
+        top: 150px;
+        display: none;
+    }
+    .bennar-item-3-img1 img {
+        display: none;
+    }
+    .bennar-item-3-img2{
+        right: 90px;
+    }
+    .bennar-item-3-img2 img {
+        width: 70px;
+        border-radius: 6px;
+    }
+    .bennar-item {
+        position: absolute;
+        top: 230px;
+        left: 0px;
+        width: 90%;
+        height: 365px;
+    }
+    .bennar-card {
+        background-image: none;
+        height: 700px;
+    }
+    .bennar-Layout-button {
+        display: none;
+    }
+}

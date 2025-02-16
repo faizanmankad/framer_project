@@ -1,0 +1,307 @@
+.websiter{
+    padding: 17px 20px;
+    margin-top: 20rem;
+}
+.websiter-card{
+    display: flex;
+    justify-content: space-between;
+}
+.websiter-text h2{
+    color: rgb(255, 255, 255);
+    font-family: "GT Walsheim Medium", "GT Walsheim Medium Placeholder", sans-serif;
+    font-size: 62px;
+    letter-spacing: -.05em;
+    line-height: 1.1em;
+    width: 40%;
+    font-weight: 600;
+}
+.websiter-card{
+    margin-top: 60px;
+}
+.websiter-card {
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    padding: 10px;
+    width: 100%;
+}
+.websiter-img-card1 {
+    width: 100%;
+    height: 450px;
+    background-color: rgb(21, 0, 255);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 1 / span 2;
+    transition: all 0.2s ease-in-out;
+}
+.websiter-img-card1:hover{
+    opacity: 0.7;
+}
+.websiter-img-card1 video, .websiter-img-card6 video{
+    width: 95%;
+    border-radius: 4px;
+}
+.websiter-img-card4{
+    width: 100%;
+    height: 910px;
+    background-color: rgb(245, 39, 53);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 3;
+    grid-row: 1 / span 2;
+    transition: all 0.2s ease-in-out;
+}
+.websiter-img-card4:hover{
+    opacity: 0.7;
+}
+.websiter-img-card4 video{
+    width: 89%;
+    border-radius: 4px;
+}
+.websiter-img-card6 {
+    width: 100%;
+    height: 450px;
+    background-color: rgb(255, 155, 5);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 2 / span 2;
+    transition: all 0.2s ease-in-out;
+
+}
+.websiter-img-card2{
+    width: 100%;
+    height: 450px;
+    background-color: rgb(253, 171, 254);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease-in-out;
+
+}
+.websiter-img-card2:hover{
+    opacity: 0.7;
+}
+.websiter-img-card2 video, .websiter-img-card3 video, .websiter-img-card5 video{
+    width: 89%;
+    border-radius: 4px;
+}
+.websiter-img-card3{
+    width: 100%;
+    height: 450px;
+    background-color:rgb(22, 170, 186) ;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease-in-out;
+
+}
+.websiter-img-card3:hover{
+    opacity: 0.7;
+}
+.websiter-img-card5{
+    width: 100%;
+    height: 450px;
+    background-color:rgb(188, 255, 4) ;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease-in-out;
+}
+.websiter-img-card6:hover{
+    opacity: 0.7;
+}
+.websiter-img-card5:hover{
+    opacity: 0.7;
+}
+.websiter-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+.websiter-button p{
+    color: #fff;
+    font-family: "GT Walsheim Medium", "GT Walsheim Medium Placeholder", sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    transition: all 0.2s ease-in-out;
+}
+.websiter-button p:hover{
+    opacity: 0.4;
+    margin-right: 2px;
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+    .websiter {
+        margin-top: 15rem;
+    }
+    .websiter-text h2 {
+        font-size: 60px;
+        width: 60%;
+    }
+    .websiter-img-card1, .websiter-img-card2, .websiter-img-card3, .websiter-img-card5, .websiter-img-card6{
+        height: 330px;
+    }
+    .websiter-img-card4{
+        height: 670px;
+    }
+    .websiter-card {
+        margin-top: 50px;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .websiter {
+        margin-top: 10rem;
+    }
+    .websiter-text h2 {
+        font-size: 35px;
+        width: 45%;
+    }
+    .websiter-img-card1, .websiter-img-card2, .websiter-img-card3, .websiter-img-card5, .websiter-img-card6{
+        height: 245px;
+    }
+    .websiter-img-card4{
+        height: 500px;
+    }
+    .websiter-card {
+        margin-top: 20px;
+    }
+
+}
+@media only screen and (min-width: 425px) and (max-width: 767px) {
+    .websiter {
+        margin-top: 5rem;
+    }
+    .websiter-text h2 {
+        font-size: 25px;
+        width: 60%;
+    }
+    .websiter-img-card1, .websiter-img-card2, .websiter-img-card3, .websiter-img-card5, .websiter-img-card6{
+        height: 185px;
+    }
+    .websiter-img-card4{
+        height: 300px;
+    }
+    .websiter-card {
+        margin-top: 20px;
+        grid-template-columns: 1fr 0 1fr;
+    }
+    .websiter-img-card1 {
+        grid-column: 1 / span 3;    
+    }
+    .websiter-img-card4{
+        grid-row: 2 / span 2;
+        height: 100%;
+    }
+    .websiter-img-card6 {
+        grid-column: 1 / span 3;
+    }
+    .websiter-img-card2{
+        grid-column: 1 / span 2;
+    }
+    .websiter-img-card3{
+        grid-column: 1 / span 2;
+    }
+    .websiter-img-card5{
+        display: none;
+    }
+}
+@media only screen and (min-width: 375px) and (max-width: 424px) {
+    .websiter {
+        margin-top: 4rem;
+    }
+    .websiter-text h2 {
+        font-size: 25px;
+        width: 70%;
+    }
+    .websiter-card {
+        margin-top: 10px;
+    }
+    .websiter-img-card1, .websiter-img-card2, .websiter-img-card3, .websiter-img-card5, .websiter-img-card6{
+        height: 160px;
+    }
+    .websiter-img-card4{
+        height: 250px;
+    }
+    .websiter-card {
+        margin-top: 20px;
+        grid-template-columns: 1fr 0 1fr;
+    }
+    .websiter-img-card1 {
+        grid-column: 1 / span 3;    
+    }
+    .websiter-img-card4{
+        grid-row: 2 / span 2;
+        height: 100%;
+    }
+    .websiter-img-card6 {
+        grid-column: 1 / span 3;
+    }
+    .websiter-img-card2{
+        grid-column: 1 / span 2;
+    }
+    .websiter-img-card3{
+        grid-column: 1 / span 2;
+    }
+    .websiter-img-card5{
+        display: none;
+    }
+}
+@media only screen and (min-width: 320px) and (max-width: 374px) {
+    .websiter {
+        margin-top: 3rem;
+    }
+    .websiter-text h2 {
+        font-size: 20px;
+        width: 70%;
+    }
+    .websiter-card {
+        margin-top: 10px;
+    }
+    .websiter-img-card2 video, .websiter-img-card3 video {
+        width: 87%;
+        border-radius: 4px;
+    }
+    .websiter-img-card2, .websiter-img-card3{
+        height: 125px;
+    } 
+    .websiter-img-card1, .websiter-img-card6{
+        height: 130px;
+    }
+    .websiter-img-card4{
+        height: 250px;
+    }
+    .websiter-card {
+        margin-top: 20px;
+        grid-template-columns: 1fr 0 1fr;
+    }
+    .websiter-img-card1 {
+        grid-column: 1 / span 3;    
+    }
+    .websiter-img-card4{
+        grid-row: 2 / span 2;
+        height: 100%;
+    }
+    .websiter-img-card6 {
+        grid-column: 1 / span 3;
+    }
+    .websiter-img-card2{
+        grid-column: 1 / span 2;
+    }
+    .websiter-img-card3{
+        grid-column: 1 / span 2;
+    }
+    .websiter-img-card5{
+        display: none;
+    }
+}
