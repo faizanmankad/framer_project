@@ -18,6 +18,7 @@ import textImg7 from '../assets/download (7).svg'
 import textImg8 from '../assets/download (8).svg'
 
 function Bennar() {
+
     return (
         <div className='bennar'>
             <div className='container'>
@@ -69,7 +70,7 @@ function Bennar() {
                             </div>
                         </div>
                         <div className='bennar-item-3'>
-                            <div className='bennar-item-3-img1'>
+                            <div className='bennar-item-3-img1' >
                                 <img src={itemImg6} alt="" />
                             </div>
                             <div className='bennar-item-3-img2'>
@@ -99,7 +100,7 @@ function Bennar() {
                             </div>
                         </div>
                     </div>
-
+                    
                 </div>
             </div>
         </div>

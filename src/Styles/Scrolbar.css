@@ -1,6 +1,13 @@
 .scrolbar{
-    padding: 17px 20px;
+    padding: 50px 20px;
     margin-top: 20rem;
+}
+.react-multiple-carousel__arrow--right {
+    right: calc(4% + -30px);
+}
+.react-multiple-carousel__arrow {
+    position: absolute;
+    bottom: 0px;
 }
 .scrolbar-text h2{
     color: rgb(255, 255, 255);
