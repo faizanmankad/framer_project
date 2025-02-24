@@ -7,7 +7,7 @@ import Design from './Compoment/Design'
 import Plugins from './Compoment/Plugins'
 import Websites from './Compoment/Websites'
 import Master from './Compoment/Master'
-import Scrolbar from './Compoment/scrolbar'
+import Scrolbar from './Compoment/Scrolbar'
 
 
 function App() {
