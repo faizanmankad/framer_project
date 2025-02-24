@@ -1,4 +1,4 @@
-import '../Styles/design.css'
+import '../Styles/Design.css'
 import { Link } from 'react-router-dom'
 import designImg from '../assets/desing.avif'
 import designImg2 from '../assets/design2.png'

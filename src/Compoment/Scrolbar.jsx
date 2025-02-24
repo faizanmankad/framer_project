@@ -1,4 +1,4 @@
-import '../Styles/scrolbar.css'
+import '../Styles/Scrolbar.css'
 import { Link } from 'react-router-dom'
 import scrolbarImg1 from '../assets/item-img1.png'
 import scrolbarImg2 from '../assets/item-img2.png'
