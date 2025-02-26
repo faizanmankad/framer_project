@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import { useState, useEffect, useRef } from 'react';
 import '../Styles/Header.css'
-import headerLogo from '../assets/download.svg'
+import headerLogo from '../assets/Neweb-logo.webp'
 import { MdSlowMotionVideo } from "react-icons/md";
 import { MdBusinessCenter } from "react-icons/md";
 import { MdCheckCircle } from "react-icons/md";
@@ -54,12 +54,12 @@ function Header() {
         Updatesmenu();
     };
     const headerMenu = [
-        { name: "Start", submenu: "startMenu" },
-        { name: "Features", submenu: "featuresMenu" },
-        { name: "Resources", submenu: "resourcesMenu" },
-        { name: "Help", submenu: "helpMenu" },
-        { name: "Enterprise", submenu: "enterpriseMenu" },
-        { name: "Pricing", url: "/" },
+        { name: "Features", submenu: "startMenu" },
+        { name: "Pricing", submenu: "featuresMenu" },
+        { name: "FAQ", submenu: "resourcesMenu" },
+        { name: "Contact", submenu: "helpMenu" },
+        // { name: "Enterprise", submenu: "enterpriseMenu" },
+        // { name: "Pricing", url: "/" },
     ]
     const menuItems = {
         startMenu: [
@@ -97,7 +97,6 @@ function Header() {
                 <div className='header'>
                     <div className='header-logo'>
                         <img src={headerLogo} alt="" />
-                        <p>Framer</p>
                     </div>
                     <div className='header-menu' ref={burgerBtn}>
                         <ul>
@@ -138,11 +137,11 @@ function Header() {
                         </ul>
                     </div>
                     <div className='header-button'>
-                        <button className='login-button'>
+                        {/* <button className='login-button'>
                             <Link>Login</Link>
-                        </button>
+                        </button> */}
                         <button className='signup-button'>
-                            <Link> Sign up</Link>
+                            <Link>Get Started</Link>
                         </button>
                         <button className="burger-menu" onClick={toggleMobileMenu}>
                             {isMobileMenuOpen ? <MdClose size={30} /> : <MdMenu size={30} />}

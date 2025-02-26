@@ -1,21 +1,21 @@
 import '../Styles/Bennar.css'
 import { Link } from 'react-router-dom'
-import itemImg1 from '../assets/item-img1.png'
-import itemimg2 from '../assets/item-img2.png'
-import itemImg3 from '../assets/item-img3.png'
-import itemImg4 from '../assets/item-img04.png'
-import itemImg5 from '../assets/item-img5.png'
-import itemImg6 from '../assets/item-img6.avif'
-import itemImg7 from '../assets/item-img7.png'
-import itemImg8 from '../assets/item-img4.avif'
-import textImg1 from '../assets/download (1).svg'
-import textImg2 from '../assets/download (2).svg'
-import textImg3 from '../assets/download (3).svg'
-import textImg4 from '../assets/download (4).svg'
-import textImg5 from '../assets/download (5).svg'
-import textImg6 from '../assets/download (6).svg'
-import textImg7 from '../assets/download (7).svg'
-import textImg8 from '../assets/download (8).svg'
+// import itemImg1 from '../assets/item-img1.png'
+// import itemimg2 from '../assets/item-img2.png'
+// import itemImg3 from '../assets/item-img3.png'
+// import itemImg4 from '../assets/item-img04.png'
+// import itemImg5 from '../assets/item-img5.png'
+// import itemImg6 from '../assets/item-img6.avif'
+// import itemImg7 from '../assets/item-img7.png'
+// import itemImg8 from '../assets/item-img4.avif'
+// import textImg1 from '../assets/download (1).svg'
+// import textImg2 from '../assets/download (2).svg'
+// import textImg3 from '../assets/download (3).svg'
+// import textImg4 from '../assets/download (4).svg'
+// import textImg5 from '../assets/download (5).svg'
+// import textImg6 from '../assets/download (6).svg'
+// import textImg7 from '../assets/download (7).svg'
+// import textImg8 from '../assets/download (8).svg'
 
 function Bennar() {
 
@@ -23,23 +23,25 @@ function Bennar() {
         <div className='bennar'>
             <div className='container'>
                 <div className='bennar-text'>
-                    <h1>Just publish it with Framer</h1>
-                    <p>The website builder loved by designers.</p>
+                    <h1>Build stunning websites easily</h1>
+                    <p>Craft stunning websites in seconds, complete with captivating content and images.</p>
                     <div className='bennar-button'>
                         <button className='start-button'>
                             <Link>
-                                Start for free
+                                Start Now
                             </Link>
                         </button>
                         <button className='video-button'>
                             <Link>
-                                Watch video
+                                View plans and pricing
                             </Link>
                         </button>
                     </div>
                 </div>
+                <div className='bennar-card' >
+                </div>
             </div>
-
+            {/* 
             <div className='bennar-card' >
                 <div className='container'>
                     <div className='bennar-Layout-button'>
@@ -102,7 +104,7 @@ function Bennar() {
                     </div>
                     
                 </div>
-            </div>
+            </div> */}
         </div>
     )
 }
