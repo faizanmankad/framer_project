@@ -68,8 +68,8 @@ function Pricing() {
                 </div>
                 <div className='pricing-amount'>
                   <span>$</span>
-                  <h3>{isYearly ? plan.monthlyPrice : plan.yearlyPrice}</h3>
-                  <span className='text-toggle'>{isYearly ? '/month' : '/year'}</span>
+                  <h3>{isYearly ? plan.yearlyPrice : plan.monthlyPrice }</h3>
+                  <span className='text-toggle'>{isYearly ? '/year'  : '/month'}</span>
                 </div>
                 <div className='getstarter-button' >
                   <button >
