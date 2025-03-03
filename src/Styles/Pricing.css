@@ -1,0 +1,266 @@
+*{
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    width: 1370px;
+    max-width: 100%;
+    margin: 0px auto;
+}
+.pricing{
+    padding: 40px 20px;
+}
+.pricing-header{
+    color: rgb(0, 0, 0);
+}
+.pricing-header h5{
+    color: rgb(0, 0, 0);
+    font-family: "GT Walsheim Medium", "GT Walsheim Medium Placeholder", sans-serif;
+    font-size: 20px;
+    letter-spacing: -.05em;
+    line-height: 1em;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.pricing-header h2{
+    color: rgb(0, 0, 0);
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 62px;
+    letter-spacing: -.05em;
+    line-height: 1.1em;
+    width: 50%;
+}
+.pricing-header p{
+    color: rgba(91, 90, 90, 0.6);
+    font-family: "Inter Variable", "Inter Placeholder", sans-serif;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 1.2em;
+    font-weight: 500;
+    width: 35%;
+    margin-top: 10px;
+}
+.toggle-container{
+    position: relative;
+    overflow: hidden;
+}
+.toggle-button{
+    background-color: #1861ff;
+    width: 100px;
+    height: 51px;
+    border-radius: 8px;
+    bottom: -3px;
+    filter: blur(2px);
+    flex: 0 0 auto;
+    opacity: 0.7;
+    overflow: hidden;
+    position: absolute;
+    animation-name: border;
+    animation-duration: 3s;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-fill-mode: backwards;
+    animation-direction: alternate;
+
+}
+@keyframes border{
+    0% {
+        will-change: transform;
+        opacity: 0.2;
+        transform: translate(125px, 0px);
+    }
+ 
+    100% {
+        opacity: 0.2;
+        will-change: transform;
+        transform: translate(-1px, 0px);
+    }
+} 
+
+.pricing-toggle{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(207, 206, 206);
+    border-radius: 10px;
+    width: 17%;
+    text-align: center;
+    margin-top: 50px;
+    /* margin-left: 10rem; */
+    overflow: hidden;
+}
+.pricing-toggle button{
+    padding: 12px 23px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 1.2em;
+    box-shadow:  0 1rem 2rem -1rem rgb(207, 207, 207);
+    overflow: hidden;
+    position: relative;
+    text-decoration: none;
+    will-change: var(--framer-will-change-override, transform);
+    z-index: 0;
+}
+.pricing-toggle button:nth-child(2){
+    border-radius: 10px 0px 0px 10px;
+}
+.pricing-toggle button:nth-child(3){
+    border-radius: 0px 10px 10px 0px;
+}
+.active{
+    background-color: #0032B2;
+    color: rgb(255, 255, 255);
+}
+.inactive{
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+}
+.pricing-options{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.pricing-card{
+    /* box-shadow: rgba(9, 9, 9, 0.12) 0px 0px 1px 1px inset; */
+    box-shadow: 0px 0px 1px 1px #dfdcdc;
+    /* box-shadow:  0 1rem 3rem 1rem rgb(232, 232, 232); */
+    width: 27%;
+    margin: 10px;
+    padding: 30px;
+    border-radius: 16px;
+    will-change: transform;
+}
+.pricing-card:after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-bottom: 2px solid #0032B2;
+    border-left: 2px solid #0032B2;
+    right: 100%;
+    left: 0%;
+    top: 100%;
+    transition: all 0.7s linear;
+    border-radius: 8px;
+}
+
+.pricing-card:hover:after {
+    right: 0%;
+    left: 0%;
+    top: 0%;
+}
+.pricing-card:before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-top: 2px solid #0032B2;
+    border-right: 2px solid #0032B2;
+    right: 0%;
+    left: 100%;
+    bottom: 100%;
+    transition: all 0.7s linear;
+    border-radius: 8px;
+}
+
+.pricing-card:hover:before {
+    right: 0%;
+    left: 0%;
+    bottom:  0%;
+}
+.pricing-card:nth-child(1){
+    /* background: radial-gradient(100% 100% at 0% 100%, rgba(85, 0, 255, 0.5) 0%, rgba(0, 3, 15, 0) 100%); */
+    background: radial-gradient(100% 100% at 0% 100%, rgb(31 63 255 / 54%) 0%, rgba(0, 3, 15, 0) 100%);
+}
+.pricing-card:nth-child(3) .text-toggle{
+    display: none;
+}
+.pricing-name{
+    display: flex;
+    align-items: center;
+}
+.pricing-name h6{
+    color: rgb(0, 0, 0);
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 26px;
+    letter-spacing: -0.04em;
+    line-height: 1.2em;
+    margin-bottom: 10px;
+    margin-right: 8px;
+}
+.pricing-name p{
+    background-color: #0032B2;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 20px;
+    width: 60px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 13px;
+    letter-spacing: -0.04em;
+    line-height: 1.2em;
+}
+.pricing-amount{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.pricing-amount span{
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 1.7em;
+}
+.pricing-amount h3{
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 1.7em;
+    margin: 0px 5px;
+}
+.pricing-features li svg{
+    margin-right: 10px;
+}
+.pricing-features li{
+    display: flex;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 1.6em;
+    margin: 2px 0px;
+}
+.getstarter-button button{
+    background-color: #0032B2;
+    color: rgb(255, 255, 255);
+   text-align: center;
+   width: 100%;
+   height: 35px;
+   border-radius: 8px;
+   will-change: transform;
+   box-shadow:  0 1rem 2rem -1rem rgb(207, 207, 207);
+   margin-bottom: 20px;
+   transition: all 0.3s linear;
+}
+.getstarter-button button:hover{
+    opacity: 0.7;
+}
+.getstarter-button a{
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 1em;
+}

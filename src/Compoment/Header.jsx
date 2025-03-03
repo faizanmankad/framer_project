@@ -14,8 +14,6 @@ import { FaSitemap } from "react-icons/fa";
 import { IoMdContact } from "react-icons/io";
 import { MdArticle } from "react-icons/md";
 import { SiXdadevelopers } from "react-icons/si";
-import { SiRobloxstudio } from "react-icons/si";
-import { FaHeart } from "react-icons/fa";
 import { MdMenu, MdClose } from 'react-icons/md';
 
 
@@ -58,8 +56,6 @@ function Header() {
         { name: "Pricing", submenu: "featuresMenu" },
         { name: "FAQ", submenu: "resourcesMenu" },
         { name: "Contact", submenu: "helpMenu" },
-        // { name: "Enterprise", submenu: "enterpriseMenu" },
-        // { name: "Pricing", url: "/" },
     ]
     const menuItems = {
         startMenu: [
@@ -82,12 +78,6 @@ function Header() {
             { name: "Articles", url: '/', p: 'Lorem ipsum dolor.', ican: <MdArticle /> },
             { name: "Developers", url: '/', p: 'Lorem ipsum dolor.', ican: <SiXdadevelopers /> },
         ],
-        enterpriseMenu: [
-            { name: "Sales", url: '/', p: 'Lorem ipsum dolor.', ican: <IoMdContact /> },
-            { name: "Studio", url: '/', p: 'Lorem ipsum dolor.', ican: <SiRobloxstudio /> },
-            { name: "Solutions", url: '/', p: 'Lorem ipsum dolor.', ican: <LuChartNoAxesColumnIncreasing /> },
-            { name: "Customers", url: '/', p: 'Lorem ipsum dolor.', ican: <FaHeart /> },
-        ]
     }
 
 
@@ -137,9 +127,6 @@ function Header() {
                         </ul>
                     </div>
                     <div className='header-button'>
-                        {/* <button className='login-button'>
-                            <Link>Login</Link>
-                        </button> */}
                         <button className='signup-button'>
                             <Link>Get Started</Link>
                         </button>

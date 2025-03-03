@@ -3,7 +3,7 @@
     margin-top: 20rem;
 }
 .master-text h2{
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-family: "GT Walsheim Medium", "GT Walsheim Medium Placeholder", sans-serif;
     font-size: 62px;
     letter-spacing: -.05em;
@@ -18,7 +18,8 @@
     width: 100%;
     height: 100%;
    margin-top: 10px;
-   mask: linear-gradient(rgb(0, 0, 0) 45%, rgba(0, 0, 0, 0) 90%);
+   /* mask: linear-gradient(rgb(0, 0, 0) 45%, rgba(0, 0, 0, 0) 90%); */
+   /* mask: linear-gradient(rgb(0, 0, 0) 93%, rgba(0, 0, 0, 0) 103%); */
 }
 .master-video-text{
     display: flex;
@@ -39,14 +40,14 @@
     width: 15px;
 }
 .master-logo p{
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-family: "GT Walsheim Medium", "GT Walsheim Medium Placeholder", sans-serif;
     font-size: 19px;
     font-weight: 600;
     margin-left: 10px;
 }
 .master-video-text h2{
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-family: "GT Walsheim Medium", "GT Walsheim Medium Placeholder", sans-serif;
     font-size: 48px;
     letter-spacing: -.04em;
@@ -71,7 +72,7 @@
 .watch-button a{
     font-size: 15px;
     font-weight: 560;
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(0, 0, 0, 0.1);
     border-radius: 100px;
     color: rgb(255, 255, 255);
     letter-spacing: -0.02em;

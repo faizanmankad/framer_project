@@ -8,6 +8,7 @@ import Plugins from './Compoment/Plugins'
 import Websites from './Compoment/Websites'
 import Master from './Compoment/Master'
 import Scrolbar from './Compoment/Scrolbar'
+import Pricing from './Compoment/Pricing'
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
           <Scrolbar/>
           <Master/>
           <Websites/>
+          <Pricing/>
           <Plugins/>
           <Design/>
           <Footer/>

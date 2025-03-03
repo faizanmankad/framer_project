@@ -33,14 +33,6 @@
 .header-logo img{
     width: 100%;
     height: 55px;
-   
-}
-.header-logo p{
-    color: rgb(0, 0, 0);
-    font-family: "GT Walsheim Medium", "GT Walsheim Medium Placeholder", sans-serif;
-    font-size: 19px;
-    font-weight: 600;
-    margin-left: 10px;
 }
 .header-menu-item{
     position: relative;
@@ -62,19 +54,7 @@
     transition: all 0.2s linear;
 }
 .header-menu li a:hover{
-    color: rgb(255, 255, 255);
-}
-.login-button a{
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    margin: 0px 5px;
-    font-family: "GT Walsheim Medium", "GT Walsheim Medium Placeholder", sans-serif;
-    font-size: 17px;
-    font-weight: 400;
-    transition: all 0.2s linear;
-}
-.login-button a:hover{
-    color: rgb(255, 255, 255);
+    color: rgb(70, 70, 70);
 }
 .header-button{
     display: flex;
@@ -106,7 +86,7 @@
     width: 17%;
     padding: 8px 8px;
     backdrop-filter: blur(10px);
-    background-color: rgba(15, 15, 15, 0.8);
+    background-color: rgba(255, 255, 255, 0.8);
     filter: saturate(1.8);
     border-radius: 14px;
     box-shadow: rgba(0, 0, 0, 0.05) 0px 10px 20px 0px;
@@ -117,11 +97,11 @@
    
 }
 .start-menu li:hover .start-name p {
-    color: #ffffff;
+    color: #000000;
 }
 .start-menu li:hover .start-icon span{
-    color: #000000;
-    background-color: rgba(255, 255, 255, 1);
+    color: #fffefe;
+    background-color: rgb(0, 0, 0);
 }
 .start-menu li  {
     display: flex;
@@ -136,7 +116,7 @@
 .start-icon span {
     font-size: 25px;
     padding: 7px;
-    color: #ffffff;
+    color: #000000;
     background-color: rgba(255, 255, 255, 0.05);
     filter: none;
     border-radius: 8px;
@@ -144,7 +124,7 @@
     transition: all 0.3s linear;
 }
 .start-name h5{
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     text-decoration: none;
     margin: 0px 10px;
     font-family: "GT Walsheim Medium", "GT Walsheim Medium Placeholder", sans-serif;
@@ -152,7 +132,7 @@
     font-weight: 400;
 }
 .start-name p{
-    color:  rgb(153, 153, 153);
+    color:  rgb(66, 66, 66);
     text-decoration: none;
     margin: 0px 10px;
     font-family: "GT Walsheim Medium", "GT Walsheim Medium Placeholder", sans-serif;
@@ -163,14 +143,14 @@
 .border-nemu1{
     width: 20px;
     height: 3px;
-    background-color: #fff;
+    background-color: #000000;
     border-radius: 1px;
     margin-bottom: 6px;
 }
 .border-menu2{
     width: 20px;
     height: 3px;
-    background-color: #fff;
+    background-color: #000000;
     border-radius: 1px;
 }
 
@@ -184,10 +164,10 @@
     .header-menu  {
         display: none;
         position: absolute;
-        background-color: #000000;
+        background-color: #ffffff;
         height: 100vh;
         width: 100%;
-        top: 60px;
+        top: 75px;
         left: 0px;
     }
     .header-menu ul {
@@ -215,10 +195,10 @@
     .header-menu  {
         display: none;
         position: absolute;
-        background-color: #000000;
+        background-color: #ffffff;
         height: 100vh;
         width: 100%;
-        top: 60px;
+        top: 75px;
         left: 0px;
     }
     .header-menu ul {
@@ -239,16 +219,22 @@
     .start-menu ul {
         width: 29%;
         background:none;
-    }  
+    }
+    .signup-button a{
+        padding: 10px 15px;
+        margin: 0px 5px;
+        font-size: 15px;
+    } 
+   
 }
 @media only screen and (min-width: 375px) and (max-width: 424px) {
         .header-menu  {
             display: none;
             position: absolute;
-            background-color: #000000;
+            background-color: #ffffff;
             height: 100vh;
             width: 100%;
-            top: 60px;
+            top: 75px;
             left: 0px;
         }
         .header-menu ul {
@@ -270,15 +256,24 @@
             width: 29%;
             background:none;
         }
+        .signup-button a{
+            padding: 8px 12px;
+            margin: 0px 5px;
+            font-size: 13px;
+        } 
+        .header-logo img{
+            width: 100%;
+            height: 40px;
+        }  
 }
 @media only screen and (min-width: 320px) and (max-width: 374px) {
     .header-menu  {
         display: none;
         position: absolute;
-        background-color: #000000;
+        background-color: #ffffff;
         height: 100vh;
         width: 100%;
-        top: 60px;
+        top: 75px;
         left: 0px;
     }
     .header-menu ul {
@@ -299,5 +294,14 @@
     .start-menu ul {
         width: 29%;
         background:none;
+    } 
+    .signup-button a{
+        padding: 8px 10px;
+        margin: 0px 2px;
+        font-size: 11px;
+    } 
+    .header-logo img{
+        width: 100%;
+        height: 38px;
     }  
 }

@@ -1,5 +1,11 @@
 import '../Styles/Websites.css'
 import { Link } from 'react-router-dom'
+import webimg5 from '../assets/web-img-1.jpg'
+import webimg2 from '../assets/web-img-2.jpg'
+import webimg3 from '../assets/web-img-3.jpg'
+import webimg4 from '../assets/web-img-4.jpg'
+import webimg1 from '../assets/web-img-5.jpg'
+import webimg6 from '../assets/web-img-6.jpg'
 
 function Websites() {
   return (
@@ -12,22 +18,22 @@ function Websites() {
         </div>
         <div className='websiter-card'>
           <div className='websiter-img-card1'>
-            <video autoPlay loop muted src="https://framerusercontent.com/assets/7pjjHThDJ0d7FSLOtDrTA4pRXEc.mp4"></video>
+            <img src={webimg1} alt="" />
           </div>
           <div className='websiter-img-card4'>
-            <video autoPlay loop muted src="https://framerusercontent.com/assets/uqb7Jrt9Ipm0RSjVjEVD8boQ5s.mp4"></video>
+            <img src={webimg2} alt="" />
           </div>
           <div className='websiter-img-card2'>
-            <video autoPlay loop muted src="https://framerusercontent.com/assets/qg3ySEAIvRVlkcoI94zHjE57Rk.mp4"></video>
+            <img src={webimg3} alt="" />
           </div>
           <div className='websiter-img-card3'>
-            <video autoPlay loop muted src="https://framerusercontent.com/assets/Cw4grH0hI3nRYQLiC53MUuRL0.mp4"></video>
+            <img src={webimg4} alt="" />
           </div>
           <div className='websiter-img-card5'>
-            <video autoPlay loop muted src="https://framerusercontent.com/assets/LzP7kaWtEH5iEWLmFk0w7mQ9oJw.mp4"></video>
+            <img src={webimg5} alt="" />
           </div>
           <div className='websiter-img-card6'>
-            <video autoPlay loop muted src="https://framerusercontent.com/assets/6lIeCq70Ms7a34UU3ZOrrZrBSQg.mp4"></video>
+            <img src={webimg6} alt="" />
           </div>
         </div>
 
