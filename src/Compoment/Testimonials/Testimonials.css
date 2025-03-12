@@ -1,0 +1,21 @@
+.Testimonials{
+    background-image: url('../../assets/testinomonials-6.webp');
+    width: 100%;
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 5rem;
+    mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 45%, rgba(0, 0, 0, 0) 75%);
+    -webkit-mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 45%, rgb(0 0 0 / 7%) 100%);
+}
+.iphone-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.iphone-img img{
+    width: 39%;
+    /* mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 45%, rgba(0, 0, 0, 0) 75%);
+    -webkit-mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 90%, rgb(0 0 0 / 7%) 100%); */
+}

@@ -1,0 +1,189 @@
+*{
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    width: 1370px;
+    max-width: 100%;
+    margin: 0px auto;
+}
+.design-cart{
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 60px 0px;
+    position: relative;
+    margin-top: 8rem;
+}
+.design-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 45px;
+}
+.design-text h2{
+    color: rgb(0, 0, 0);
+    font-family: "GT Walsheim Medium", "GT Walsheim Medium Placeholder", sans-serif;
+    font-size: 50px;
+    letter-spacing: -0.06em;
+    line-height: 1.1em;
+    width: 35%;
+    font-weight: 600;
+}
+.design-text p{
+    color: rgba(66, 66, 66, 0.6);
+    font-family: "Inter Variable", "Inter Placeholder", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 18px 0px;
+    width: 35%;
+}
+.design-text button a{
+    font-family: "Inter Variable", "Inter Placeholder", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: rgb(0, 0, 0);
+    border-radius: 100px;
+    color: rgb(254, 254, 254);
+    letter-spacing: -0.02em;
+    line-height: 1em;
+    text-align: center;
+    padding: 10px 17px;
+}
+.design-img img {
+    border-radius: 10px;
+    mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 45%, rgba(0, 0, 0, 0) 75%);
+    -webkit-mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 45%, rgba(0, 0, 0, 0) 75%);
+    box-shadow: 
+        inset 0px 0px 20px 5px rgba(0, 0, 0, 0.6),
+        0px 0px 30px 10px rgba(64, 128, 246, 0.7);
+}
+.design-img-2{
+    position: absolute;
+    top: 0;
+    animation-name: raund;
+    animation-duration: 40s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: backwards;
+    border-radius: 50%;
+   
+} 
+
+@keyframes raund {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .design-text h2 {
+        font-size: 34px;
+        width: 30%;
+        font-weight: 500;
+    }
+    .design-text p {
+        font-size: 20px;
+        font-weight: 500;
+        width: 38%;
+    }
+    .design-text button a {
+        padding: 8px 15px;
+    }
+    .design-cart {
+        margin-top: 5rem;
+    }
+}
+@media only screen and (min-width: 425px) and (max-width: 768px) {
+    .design-text h2 {
+        font-size: 25px;
+        width: 40%;
+        font-weight: 500;
+    }
+    .design-text p {
+        font-size: 15px;
+        font-weight: 500;
+        width: 50%;
+    }
+    .design-text button a {
+        font-size: 12px;
+        font-weight: 500;
+        letter-spacing: -0.02em;
+        line-height: 1em;
+    }
+    .design-img img{
+        width: 300px;
+    }
+    .design-img-2 img{
+        width: 300px;
+    }
+    .design-cart {
+        margin-top: 4rem;
+    }
+}
+@media only screen and (min-width: 375px) and (max-width: 425px) {
+    .design-text h2 {
+        font-size: 25px;
+        width: 40%;
+        font-weight: 500;
+    }
+    .design-text p {
+        font-size: 15px;
+        font-weight: 500;
+        width: 50%;
+    }
+    .design-text button a {
+        font-size: 12px;
+        font-weight: 500;
+        letter-spacing: -0.02em;
+        line-height: 1em;
+    }
+    .design-img img{
+        width: 300px;
+    }
+    .design-img-2 img{
+        width: 300px;
+    }
+    .design-cart {
+        margin-top: 3rem;
+    }
+}
+@media only screen and (min-width: 320px) and (max-width: 375px) {
+    .design-text h2 {
+        font-size: 20px;
+        width: 45%;
+        font-weight: 500;
+    }
+    .design-text p {
+        font-size: 10px;
+        font-weight: 500;
+        width: 65%;
+    }
+    .design-text button a {
+        font-size: 10px;
+        font-weight: 500;
+        letter-spacing: -0.02em;
+        line-height: 1em;
+    }
+    .design-img img{
+        width: 250px;
+    }
+    .design-img-2 img{
+        width: 250px;
+    }
+    .design-cart {
+        margin-top: 2rem;
+    }
+}
+

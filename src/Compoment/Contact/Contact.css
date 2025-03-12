@@ -1,0 +1,377 @@
+*{
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    width: 1370px;
+    max-width: 100%;
+    margin: 0px auto;
+}
+.contact-section{
+    padding: 40px 20px;
+    margin: 5rem 0px;
+}
+.contact-header h2{
+    color: rgb(0, 0, 0);
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 40px;
+    letter-spacing: -.05em;
+    line-height: 1.1em;
+}
+.contact-header p{
+    color: rgb(69, 67, 67);
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    letter-spacing: -0.2px;
+    line-height: 1.6em;
+    font-weight: 500;
+    width: 35%;
+    margin-top: 15px;
+}
+.contact-card{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.premium-card, .talk-card{
+    width: 40%;
+    border-radius: 14px;
+    border: 1px solid #e8e8e8;
+    box-shadow: 0px 0px 1px 1px #cfcece;
+    padding: 30px;
+    margin: 10px;
+}
+.premium-card h4, .talk-card h4{
+    color: rgb(0, 0, 0);
+    font-family: "Poppins", sans-serif;
+    font-size: 26px;
+    letter-spacing: -.05em;
+    line-height: 1em;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.premium-card p{
+    color: rgb(69, 67, 67);
+    font-family: "Poppins", sans-serif;
+    font-size: 22px;
+    letter-spacing: -0.2px;
+    line-height: 1.6em;
+    font-weight: 600;
+    width: 40%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.primium-button{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+.primium-button button, .talk-card button{
+    background-color: #000000;
+    padding: 10px 15px;
+    border-radius: 25px;
+    transition: all 0.3s ease-in-out;
+}
+.primium-button button:hover{
+    opacity: 0.8;
+}
+.talk-card button:hover{
+    opacity: 0.8;
+}
+.primium-button button a, .talk-card button a{
+    color: rgb(255, 255, 255);
+    font-family: "Poppins", sans-serif;
+    font-size: 17px;
+    letter-spacing: -.05em;
+    line-height: 1em;
+    font-weight: 300;
+}
+.primium-button h6{
+    color: rgb(69, 67, 67);
+    font-family: "Poppins", sans-serif;
+    font-size:17px;
+    letter-spacing: -0.2px;
+    line-height: 1.2em;
+    font-weight: 600;
+    width: 35%;
+    margin-left: 10px;
+}
+.primium-button h6 a{
+    color: rgb(41, 40, 40);
+}
+.primium-button h6 a:hover{
+    color: #000000;
+}
+.talk-card p{
+    color: rgb(69, 67, 67);
+    font-family: "Poppins", sans-serif;
+    font-size: 22px;
+    letter-spacing: -0.2px;
+    line-height: 1.6em;
+    font-weight: 600;
+    width: 45%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.product-card, .billing-card, .emergency-card{
+    width: 26%;
+    border-radius: 14px;
+    border: 1px solid #e8e8e8;
+    box-shadow: 0px 0px 1px 1px #cfcece;
+    padding: 30px;
+    margin: 10px;
+}
+.product-card h4, .billing-card h4, .emergency-card h4{
+    color: rgb(0, 0, 0);
+    font-family: "Poppins", sans-serif;
+    font-size: 23px;
+    letter-spacing: -.05em;
+    line-height: 1em;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.product-card p, .billing-card p, .emergency-card p{
+    color: rgb(69, 67, 67);
+    font-family: "Poppins", sans-serif;
+    font-size: 19px;
+    letter-spacing: -0.2px;
+    line-height: 1.6em;
+    font-weight: 600;
+    width: 66%;
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+.product-card button a, .billing-card button a, .emergency-card button a{
+    background-color: #141414e8;
+    color: rgb(255, 255, 255);
+    padding: 7px 14px;
+    border-radius: 25px;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    letter-spacing: -.05em;
+    line-height: 1em;
+    font-weight: 400;
+    transition: all 0.3s ease-in-out;
+}
+.product-card button a:hover, .billing-card button a:hover, .emergency-card button a:hover{
+    opacity: 0.9;
+}
+@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+    .premium-card, .talk-card {
+        width: 47%;
+    }
+    .product-card, .billing-card, .emergency-card {
+        width: 31%;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .contact-header h2{
+        font-size: 35px;
+    }
+    .contact-header p{
+        font-size: 16px;
+        width: 50%;
+    }
+    .premium-card, .talk-card {
+        width: 100%;
+    }
+    .product-card, .billing-card, .emergency-card {
+        width: 100%;
+    }
+    .premium-card h4, .talk-card h4 {
+        font-size: 24px;
+    }
+    .premium-card p {
+        font-size: 20px;
+        width: 35%;
+        margin-bottom: 0px;
+    }
+    .primium-button h6 {
+        width: 70%;
+    }
+    .primium-button button a, .talk-card button a {
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .primium-button button, .talk-card button {
+        padding: 7px 15px;
+    }
+    .talk-card p {
+        font-size: 20px;
+        width: 45%;
+        margin-bottom: 40px;
+    }
+    .product-card h4, .billing-card h4, .emergency-card h4 {
+        font-size: 22px;
+    }
+    .product-card p, .billing-card p, .emergency-card p {
+        font-size: 18px;
+        width: 30%;
+    }
+    .product-card button a, .billing-card button a, .emergency-card button a {
+        font-size: 14px;
+    }
+}
+@media only screen and (min-width: 425px) and (max-width: 768px) {
+    .contact-header h2{
+        font-size: 26px;
+    }
+    .contact-header p{
+        font-size: 15px;
+        width: 70%;
+    }
+    .premium-card, .talk-card {
+        width: 100%;
+    }
+    .product-card, .billing-card, .emergency-card {
+        width: 100%;
+    }
+    .premium-card h4, .talk-card h4 {
+        font-size: 24px;
+    }
+    .premium-card p {
+        font-size: 20px;
+        width: 60%;
+        margin-bottom: 0px;
+    }
+    .primium-button h6 {
+        width: 50%;
+        font-size: 15px;
+    }
+    .primium-button button a, .talk-card button a {
+        font-size: 15px;
+        font-weight: 400;
+    }
+    .primium-button button, .talk-card button {
+        padding: 7px 15px;
+    }
+    .talk-card p {
+        font-size: 20px;
+        width: 74%;
+        margin-bottom: 40px;
+    }
+    .product-card h4, .billing-card h4, .emergency-card h4 {
+        font-size: 22px;
+    }
+    .product-card p, .billing-card p, .emergency-card p {
+        font-size: 18px;
+        width: 60%;
+    }
+    .product-card button a, .billing-card button a, .emergency-card button a {
+        font-size: 14px;
+    }
+}
+@media only screen and (min-width: 375px) and (max-width: 425px) {
+    .contact-header h2{
+        font-size: 26px;
+    }
+    .contact-header p{
+        font-size: 15px;
+        width: 70%;
+    }
+    .premium-card, .talk-card {
+        width: 100%;
+    }
+    .product-card, .billing-card, .emergency-card {
+        width: 100%;
+    }
+    .premium-card h4, .talk-card h4 {
+        font-size: 24px;
+    }
+    .premium-card p {
+        font-size: 20px;
+        width: 60%;
+        margin-bottom: 0px;
+    }
+    .primium-button h6 {
+        width: 50%;
+        font-size: 15px;
+    }
+    .primium-button button a, .talk-card button a {
+        font-size: 15px;
+        font-weight: 400;
+    }
+    .primium-button button, .talk-card button {
+        padding: 7px 15px;
+    }
+    .talk-card p {
+        font-size: 20px;
+        width: 74%;
+        margin-bottom: 40px;
+    }
+    .product-card h4, .billing-card h4, .emergency-card h4 {
+        font-size: 22px;
+    }
+    .product-card p, .billing-card p, .emergency-card p {
+        font-size: 18px;
+        width: 60%;
+    }
+    .product-card button a, .billing-card button a, .emergency-card button a {
+        font-size: 14px;
+    }
+    .premium-card svg , .talk-card svg{
+        width: 30px;
+        height: 30px;
+    }
+}
+@media only screen and (min-width: 320px) and (max-width: 375px) {
+    .contact-header h2{
+        font-size: 26px;
+    }
+    .contact-header p{
+        font-size: 15px;
+        width: 75%;
+    }
+   .premium-card, .talk-card {
+        width: 100%;
+    }
+    .product-card, .billing-card, .emergency-card {
+        width: 100%;
+    }
+    .premium-card h4, .talk-card h4 {
+        font-size: 24px;
+    }
+    .premium-card p {
+        font-size: 20px;
+        width: 100%;
+        margin-bottom: 0px;
+    }
+    .primium-button h6 {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .primium-button button a, .talk-card button a {
+        font-size: 15px;
+        font-weight: 400;
+    }
+    .primium-button button, .talk-card button {
+        padding: 7px 15px;
+    }
+    .talk-card p {
+        font-size: 20px;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .product-card h4, .billing-card h4, .emergency-card h4 {
+        font-size: 22px;
+    }
+    .product-card p, .billing-card p, .emergency-card p {
+        font-size: 18px;
+        width: 100%;
+    }
+    .product-card button a, .billing-card button a, .emergency-card button a {
+        font-size: 14px;
+    }
+    .premium-card svg , .talk-card svg{
+        width: 30px;
+        height: 30px;
+    }
+    .primium-button {
+        display: block;
+    }
+}
+
+
