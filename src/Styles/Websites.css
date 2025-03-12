@@ -15,9 +15,6 @@
     width: 40%;
     font-weight: 600;
 }
-.websiter-card{
-    margin-top: 60px;
-}
 .websiter-card {
     margin-top: 60px;
     display: grid;
@@ -28,99 +25,60 @@
 }
 .websiter-img-card1 {
     width: 100%;
-    height: 450px;
-    background-color: rgb(21, 0, 255);
+    height: 430px;
     border-radius: 8px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     grid-column: 1 / span 2;
-    transition: all 0.2s ease-in-out;
-}
-.websiter-img-card1:hover{
-    opacity: 0.7;
-}
-.websiter-img-card1 video, .websiter-img-card6 video{
-    width: 95%;
-    border-radius: 4px;
+    transition: all 0.2s linear;
+    overflow: hidden;
+    border: 15px solid rgb(21, 0, 255);
 }
 .websiter-img-card4{
     width: 100%;
-    height: 910px;
-    background-color: rgb(245, 39, 53);
+    height: 870px;
+    border: 15px solid rgb(245, 39, 53);
     border-radius: 8px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     grid-column: 3;
     grid-row: 1 / span 2;
-    transition: all 0.2s ease-in-out;
-}
-.websiter-img-card4:hover{
-    opacity: 0.7;
-}
-.websiter-img-card4 video{
-    width: 89%;
-    border-radius: 4px;
+    overflow: hidden;
+    transition: all 0.2s linear;
 }
 .websiter-img-card6 {
     width: 100%;
-    height: 450px;
-    background-color: rgb(255, 155, 5);
+    height: 430px;
+    border: 15px solid rgb(255, 155, 5);
     border-radius: 8px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     grid-column: 2 / span 2;
-    transition: all 0.2s ease-in-out;
-
+    overflow: hidden;
+    transition: all 0.2s linear;
 }
 .websiter-img-card2{
     width: 100%;
-    height: 450px;
-    background-color: rgb(253, 171, 254);
+    height: 430px;
+    border: 15px solid rgb(253, 171, 254) ;
     border-radius: 8px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: all 0.2s ease-in-out;
-
-}
-.websiter-img-card2:hover{
-    opacity: 0.7;
-}
-.websiter-img-card2 video, .websiter-img-card3 video, .websiter-img-card5 video{
-    width: 89%;
-    border-radius: 4px;
+    overflow: hidden;
+    transition: all 0.2s linear;
 }
 .websiter-img-card3{
     width: 100%;
-    height: 450px;
-    background-color:rgb(22, 170, 186) ;
+    height: 430px;
+    border: 15px solid rgb(22, 170, 186);
     border-radius: 8px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: all 0.2s ease-in-out;
-
-}
-.websiter-img-card3:hover{
-    opacity: 0.7;
+    overflow: hidden;
+    transition: all 0.2s linear;
 }
 .websiter-img-card5{
     width: 100%;
-    height: 450px;
-    background-color:rgb(188, 255, 4) ;
+    height: 430px;
+    border: 15px solid rgb(188, 255, 4) ;
     border-radius: 8px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: all 0.2s ease-in-out;
+    overflow: hidden;
+    transition: all 0.2s linear;
 }
-.websiter-img-card6:hover{
-    opacity: 0.7;
+.websiter-img-card1 video, .websiter-img-card2 video, .websiter-img-card3 video, .websiter-img-card4 video, .websiter-img-card5 video, .websiter-img-card6 video{
+    width: 100%;
 }
-.websiter-img-card5:hover{
+.websiter-img-card1:hover, .websiter-img-card2:hover, .websiter-img-card3:hover, .websiter-img-card4:hover, .websiter-img-card5:hover,.websiter-img-card6:hover{
     opacity: 0.7;
 }
 .websiter-button{
@@ -150,10 +108,10 @@
         width: 60%;
     }
     .websiter-img-card1, .websiter-img-card2, .websiter-img-card3, .websiter-img-card5, .websiter-img-card6{
-        height: 330px;
+        height: 320px;
     }
     .websiter-img-card4{
-        height: 670px;
+        height: 650px;
     }
     .websiter-card {
         margin-top: 50px;
@@ -168,10 +126,10 @@
         width: 45%;
     }
     .websiter-img-card1, .websiter-img-card2, .websiter-img-card3, .websiter-img-card5, .websiter-img-card6{
-        height: 245px;
+        height: 235px;
     }
     .websiter-img-card4{
-        height: 500px;
+        height: 480px;
     }
     .websiter-card {
         margin-top: 20px;
