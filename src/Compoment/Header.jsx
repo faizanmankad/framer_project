@@ -59,7 +59,7 @@ function Header() {
         { name: "Resources", submenu: "resourcesMenu" },
         { name: "Help", submenu: "helpMenu" },
         { name: "Enterprise", submenu: "enterpriseMenu" },
-        { name: "Pricing", url: "/" },
+        { name: "Pricing", url: "/Pricing" },
     ]
     const menuItems = {
         startMenu: [
@@ -95,10 +95,12 @@ function Header() {
         <div className='header-card'>
             <div className='container'>
                 <div className='header'>
-                    <div className='header-logo'>
-                        <img src={headerLogo} alt="" />
-                        <p>Framer</p>
-                    </div>
+                    <Link to="/">
+                        <div className='header-logo'>
+                            <img src={headerLogo} alt="" />
+                            <p>Framer</p>
+                        </div>
+                    </Link>
                     <div className='header-menu' ref={burgerBtn}>
                         <ul>
                             {headerMenu.map((item) => (
