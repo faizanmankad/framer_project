@@ -5,6 +5,7 @@
 .websiter-card{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .websiter-text h2{
     color: rgb(255, 255, 255);
@@ -23,6 +24,7 @@
     padding: 10px;
     width: 100%;
 }
+
 .websiter-img-card1 {
     width: 100%;
     height: 430px;
