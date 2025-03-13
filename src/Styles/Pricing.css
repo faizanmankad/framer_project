@@ -280,6 +280,9 @@
         width: 100%;
         margin: 10px 0px;
     }
+    .pricing-toggle button{
+        padding: 7px 42px;
+    }
 }
 @media only screen and (min-width: 425px) and (max-width: 768px) {
     .pricing-header h2{
@@ -295,6 +298,9 @@
     .pricing-card {
         width: 100%;
         margin: 10px 0px;
+    }
+    .pricing-toggle button{
+        padding: 7px 42px;
     }
     @keyframes border{
         0% {
@@ -324,6 +330,9 @@
     .pricing-card {
         width: 100%;
         margin: 10px 0px;
+    }
+    .pricing-toggle button{
+        padding: 7px 42px;
     }
     @keyframes border{
         0% {
