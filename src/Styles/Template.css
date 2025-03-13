@@ -1,0 +1,109 @@
+*{
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    width: 1370px;
+    max-width: 100%;
+    margin: 0px auto;
+}
+.template-section{
+    background-color: black;
+}
+.template-card{
+    padding: 17px 20px;
+    margin-top: 10rem;
+}
+.template-header h2{
+    color: rgb(255, 255, 255);
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 40px;
+    letter-spacing: -.05em;
+    line-height: 1.1em;
+}
+.template-item{
+    margin-top: 30px;
+    transition: all 0.3s ease-in-out ;
+}
+.template-item:hover{
+    opacity: 0.5;
+}
+.template-item img{
+    width: 300px;
+    height: 200px;
+    border-radius: 14px;
+}
+.template-item h3{
+    color: rgb(255, 255, 255);
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    letter-spacing: -.05em;
+    line-height: 1em;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.template-item p{
+    color: rgb(153, 153, 153);
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    letter-spacing: -0.2px;
+    line-height: 1.6em;
+    font-weight: 500;
+}
+.slick-prev:before, .slick-next:before {
+   display: none;
+}
+@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .template-header h2{
+        font-size: 35px;
+    }
+    .template-item h3{
+        font-size: 18px;
+    }
+    .template-item p{
+        font-size: 16px;
+    }
+}
+@media only screen and (min-width: 425px) and (max-width: 768px) {
+    .template-header h2{
+        font-size: 26px;
+    }
+    .template-item h3{
+        font-size: 17px;
+    }
+    .template-item p{
+        font-size: 15px;
+    }
+}
+@media only screen and (min-width: 375px) and (max-width: 425px) {
+    .template-header h2{
+        font-size: 26px;
+    }
+    .template-item h3{
+        font-size: 17px;
+    }
+    .template-item p{
+        font-size: 15px;
+    }
+}
+@media only screen and (min-width: 320px) and (max-width: 375px) {
+    .template-header h2{
+        font-size: 26px;
+    }
+    .template-item img {
+        width: 255px;
+        height: 170px;
+        border-radius: 14px;
+    }
+    .template-item h3{
+        font-size: 16px;
+    }
+    .template-item p{
+        font-size: 13px;
+    }
+}

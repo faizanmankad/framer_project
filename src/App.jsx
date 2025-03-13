@@ -9,6 +9,8 @@ import Websites from './Compoment/Websites'
 import Master from './Compoment/Master'
 import Scrolbar from './Compoment/Scrolbar'
 import Pricing from './Compoment/Pricing'
+import Template from './Compoment/Template'
+import Faq from './Compoment/Faq'
 
 
 function App() {
@@ -23,6 +25,7 @@ function App() {
           <Master />
           <Websites />
           <Plugins />
+          <Template/>
           <Design />
           <Footer />
         </>
@@ -34,6 +37,7 @@ function App() {
         <>
           <Header />
           <Pricing />
+          <Faq/>
           <Footer />
         </>
       )
