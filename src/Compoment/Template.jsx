@@ -1,15 +1,15 @@
 import '../Styles/Template.css';
-import template1 from '../assets/colson-bike.jpg'
-import template2 from '../assets/aroma bakery cake.jpg'
-import template3 from '../assets/astonia business cosulting.jpg'
-import template4 from '../assets/avvaire startup busniess.jpg'
-import template5 from '../assets/cakery shop bakery.png'
-import template6 from '../assets/amity animal hospital.jpg'
-import template7 from '../assets/fashion feel woocommerce.jpg'
-import template8 from '../assets/finnace investment.jpg'
-import template9 from '../assets/fit point gym.jpg'
-import template10 from '../assets/menu.jpg'
-import Slider from 'react-slick';
+import template1 from '../assets/colson-bike.jpg';
+import template2 from '../assets/aroma bakery cake.jpg';
+import template3 from '../assets/astonia business cosulting.jpg';
+import template4 from '../assets/avvaire startup busniess.jpg';
+import template5 from '../assets/cakery shop bakery.png';
+import template6 from '../assets/amity animal hospital.jpg';
+import template7 from '../assets/fashion feel woocommerce.jpg';
+import template8 from '../assets/finnace investment.jpg';
+import template9 from '../assets/fit point gym.jpg';
+import template10 from '../assets/menu.jpg';
+import Slider from 'react-slick';;
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
@@ -51,11 +51,11 @@ function Template() {
                     <div className="template-header">
                         <h2>Find a Pro</h2>
                     </div>
-                    <div className="slider-container">
+                    <div className="slider-container" aria-label="Business templates slider">
                         <Slider {...settings}>
                             {templateImg.map((template, index) => (
-                                <div key={index} className="template-item">
-                                    <img src={template.img} alt={template.title} />
+                                <div key={index} className="template-item" aria-label={`Slide ${index + 1}`}>
+                                    <img src={template.img} alt={template.title} loading="lazy"/>
                                     <h3>{template.title}</h3>
                                     <p>{template.description}</p>
                                 </div>
