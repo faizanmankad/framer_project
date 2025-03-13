@@ -23,6 +23,7 @@ function Template() {
         speed: 1000,
         autoplaySpeed: 3000,
         cssEase: 'ease-in-out',
+        pauseOnHover: false,
         responsive: [
             { breakpoint: 1024, settings: { slidesToShow: 3 } },
             { breakpoint: 768, settings: { slidesToShow: 2 } },
