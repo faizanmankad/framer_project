@@ -59,7 +59,7 @@ function Header() {
         { name: "Resources", submenu: "resourcesMenu" },
         { name: "Help", submenu: "helpMenu" },
         { name: "Enterprise", submenu: "enterpriseMenu" },
-        { name: "Pricing", url: "/Pricing" },
+        { name: "Pricing", url: "/Pricing", onClick: toggleMobileMenu },
     ]
     const menuItems = {
         startMenu: [
@@ -96,7 +96,7 @@ function Header() {
             <div className='container'>
                 <div className='header'>
                     <Link to="/">
-                        <div className='header-logo'>
+                        <div className='header-logo' >
                             <img src={headerLogo} alt="" />
                             <p>Framer</p>
                         </div>
@@ -104,24 +104,25 @@ function Header() {
                     <div className='header-menu' ref={burgerBtn}>
                         <ul>
                             {headerMenu.map((item) => (
-                                <li key={item.name} className="menu-container"
+                                <li key={item.name} className="menu-container" 
                                     onClick={(e) => {
                                         e.stopPropagation();
                                         setActiveMenu(activeMenu === item.submenu ? null : item.submenu);
+                                        if (item.onClick) item.onClick();
                                     }}
                                     onMouseEnter={() => setTimeout(() => {
                                         setActiveMenu(item.submenu)
                                     })}
                                     onMouseLeave={() => setActiveMenu(null)}
                                 >
-                                    <Link to={item.url}>{item.name}</Link>
+                                    <Link to={item.url}>{item.name} </Link>
 
                                     {item.submenu && activeMenu === item.submenu && (
                                         <div className='start-menu '>
                                             <ul>
                                                 {
                                                     menuItems[item.submenu].map((subItem) => (
-                                                        <li key={subItem.name} >
+                                                        <li key={subItem.name} onClick={toggleMobileMenu}>
                                                             <Link to={subItem.url}>
                                                             <div className='start-icon'>
                                                                 <span>{subItem.ican}</span>
