@@ -1,6 +1,6 @@
 import '../Styles/Faq.css';
 import { Link } from 'react-router-dom';
-import { IoMdCheckmark } from "react-icons/io";
+import { IoMdCheckmark } from "lucide-react";
 import { useState } from 'react';
 import { CircleChevronDown, CircleChevronUp } from 'lucide-react';
 
