@@ -106,4 +106,8 @@
     .template-item p{
         font-size: 13px;
     }
+    .template-card{
+        padding: 17px 20px;
+        margin-top: 5rem;
+    }
 }

@@ -20,7 +20,7 @@ function Master() {
                 <div className='master-video-text'>
                     <div className='master-logo'>
                         <img src={masterLogo} alt="" />
-                        <p>Framer </p>
+                        <p>Framer Academy</p>
                     </div>
                     <h2>
                         Master the Fundamentals
@@ -28,12 +28,12 @@ function Master() {
                     <div className='master-button'>
                         <button className='Fundamentals-button'>
                             <Link>
-                            Fundamentals
+                           <span> Start</span> Fundamentals
                             </Link>
                         </button>
                         <button className='watch-button'>
                             <Link>
-                                Watch introduction
+                               <span> Watch</span> Introduction
                             </Link>
                         </button>
                     </div>

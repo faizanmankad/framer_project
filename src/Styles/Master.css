@@ -36,49 +36,55 @@
     align-items: center;
 }
 .master-logo img{
-    width: 15px;
+    width: 12px;
 }
 .master-logo p{
     color: rgb(255, 255, 255);
+    letter-spacing: -.5px;
+    line-height: 1.1em;
     font-family: "GT Walsheim Medium", "GT Walsheim Medium Placeholder", sans-serif;
-    font-size: 19px;
-    font-weight: 600;
+    font-size: 15px;
+    font-weight: 400;
     margin-left: 10px;
 }
 .master-video-text h2{
     color: rgb(255, 255, 255);
-    font-family: "GT Walsheim Medium", "GT Walsheim Medium Placeholder", sans-serif;
     font-size: 48px;
-    letter-spacing: -.04em;
-    line-height: 1em;
+    letter-spacing: -.5px;
+    line-height: 1.1em;
+    font-family: "GT Walsheim Medium", "GT Walsheim Medium Placeholder", sans-serif;
     width: 30%;
     font-weight: 400;
+    margin-top: 10px;
 }
 .master-button{
-    margin-top: 20px;
+    margin-top: 25px;
 }
 .Fundamentals-button a{
     font-size: 15px;
-    font-weight: 560;
+    font-weight: 600;
     background-color: rgba(255, 255, 255);
     border-radius: 100px;
     color: rgb(0, 0, 0);
-    letter-spacing: -0.02em;
-    line-height: 1em;
+    letter-spacing: -.5px;
+    line-height: 1.1em;
     text-align: center;
     padding: 10px 17px;
+    font-family: "GT Walsheim Medium", "GT Walsheim Medium Placeholder", sans-serif;
 }
 .watch-button a{
     font-size: 15px;
-    font-weight: 560;
+    font-weight: 600;
+    backdrop-filter: blur(5px);
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 100px;
     color: rgb(255, 255, 255);
-    letter-spacing: -0.02em;
-    line-height: 1em;
+    letter-spacing: -.5px;
+    line-height: 1.1em;
     text-align: center;
     padding: 10px 17px;
     margin-left: 10px;
+    font-family: "GT Walsheim Medium", "GT Walsheim Medium Placeholder", sans-serif;
 }
 @media only screen and (min-width: 1024px) and (max-width: 1200px) {
     .master-card{
@@ -101,12 +107,26 @@
         bottom: 0px;
     }
     .master-video-text h2 {
-        font-size: 40px;
+        font-size: 30px;
         width: 40%;
+        margin-top: 7px;
+    }
+    .master-logo img{
+        width: 12px;
+    }
+    .master-logo p{
+        font-size: 14px;
+        margin-left: 8px;
+    }
+    .master-button{
+        margin-top: 15px;
     }
     .watch-button a, .Fundamentals-button a {
         font-size: 14px;
         padding: 8px 15px;
+    }
+    .watch-button a span, .Fundamentals-button a span{
+        display: none;
     }
 }
 @media only screen and (min-width: 425px) and (max-width: 767px) {
@@ -121,14 +141,29 @@
         bottom: 0px;
     }
     .master-video-text h2 {
-        font-size: 20px;
+        font-size: 25px;
         width: 40%;
+        margin-top: 5px;
+        font-weight: 500;
     }
-  
+    .master-logo img{
+        width: 10px;
+    }
+    .master-logo p{
+        font-size: 12px;
+        margin-left: 6px;
+    }
+    .master-button{
+        margin-top: 10px;
+    }
     .watch-button a, .Fundamentals-button a {
-        font-size: 10px;
+        font-size: 13px;
         padding: 8px 15px;
+        font-weight: 500;
     }
+    .watch-button a span, .Fundamentals-button a span{
+        display: none;
+    }  
 }
 @media only screen and (min-width: 375px) and (max-width: 424px) {
     .master-card{
@@ -142,19 +177,29 @@
         bottom: 0px;
     }
     .master-video-text h2 {
-        font-size: 20px;
-        width: 40%;
+        font-size: 25px;
+        width: 43%;
+        margin-top: 5px;
+        font-weight: 500;
     }
-    .master-logo img {
-        width: 10px;
+    .master-logo img{
+        width: 8px;
     }
-    .master-logo p {
-        font-size: 15px;
+    .master-logo p{
+        font-size: 10px;
+        margin-left: 6px;
+    }
+    .master-button{
+        margin-top: 10px;
     }
     .watch-button a, .Fundamentals-button a {
-        font-size: 14px;
+        font-size: 13px;
         padding: 8px 15px;
+        font-weight: 500;
     }
+    .watch-button a span, .Fundamentals-button a span{
+        display: none;
+    } 
 }
 @media only screen and (min-width: 320px) and (max-width: 374px) {
     .master-card{
@@ -172,13 +217,23 @@
     }
     .master-logo p {
         font-size: 10px;
+        margin-left: 4px;
     }
     .master-video-text h2 {
-        font-size: 15px;
-        width: 40%;
+        font-size: 25px;
+        width: 50%;
+        margin-top: 5px;
+        font-weight: 500;
+    }
+    .master-button{
+        margin-top: 10px;
     }
     .watch-button a, .Fundamentals-button a {
-        font-size: 10px;
+        font-size: 12px;
         padding: 8px 15px;
+        font-weight: 500;
+    }
+    .watch-button a span, .Fundamentals-button a span{
+        display: none;
     }
 }

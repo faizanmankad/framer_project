@@ -229,7 +229,22 @@
         width: 50%;
     }
     .bennar-text p {
-        font-size: 18px;
+        font-size: 24px;
+        width: 25%;
+        margin-top: 5px;
+    }
+    .bennar-button {
+        margin-top: 15px;
+    }
+    .start-button a {
+        font-size: 15px;
+        padding: 10px 17px;
+        margin-right: 5px;
+    }
+    .video-button a {
+        font-size: 15px;
+        padding: 10px 17px;
+        margin-left: 5px;
     }
     .bennar-text-img {
         width: 75%;
@@ -288,7 +303,22 @@
         top: 125px;
     }
     .bennar-text p {
+        font-size: 20px;
+        width: 25%;
+        margin-top: 5px;
+    }
+    .bennar-button {
+        margin-top: 15px;
+    }
+    .start-button a {
         font-size: 15px;
+        padding: 10px 17px;
+        margin-right: 5px;
+    }
+    .video-button a {
+        font-size: 15px;
+        padding: 10px 17px;
+        margin-left: 5px;
     }
     .bennar-text-img {
         width: 100%;
@@ -349,7 +379,7 @@
 
 }
 @media only screen and (min-width: 425px) and (max-width: 767px) {
-    .bennar-text h1 {
+     .bennar-text h1 {
         font-size: 40px;
         width: 60%;
     }
@@ -357,18 +387,22 @@
         top: 125px;
     }
     .bennar-text p {
-        font-size: 15px;
-        width: 40%
+        font-size: 18px;
+        width: 40%;
+        margin-top: 5px;
+    }
+    .bennar-button {
+        margin-top: 15px;
     }
     .start-button a {
-        font-size: 12px;
+        font-size: 14px;
         padding: 10px 17px;
-        margin-right: 7px;
+        margin-right: 5px;
     }
     .video-button a {
-        font-size: 12px;
+        font-size: 14px;
         padding: 10px 17px;
-        margin-left: 7px;
+        margin-left: 5px;
     }
     .bennar-text-img {
         width: 100%;
@@ -437,18 +471,22 @@
         top: 125px;
     }
     .bennar-text p {
-        font-size: 15px;
-        width: 40%
+        font-size: 18px;
+        width: 50%;
+        margin-top: 5px;
+    }
+    .bennar-button {
+        margin-top: 15px;
     }
     .start-button a {
-        font-size: 12px;
+        font-size: 14px;
         padding: 10px 17px;
-        margin-right: 7px;
+        margin-right: 5px;
     }
     .video-button a {
-        font-size: 12px;
+        font-size: 14px;
         padding: 10px 17px;
-        margin-left: 7px;
+        margin-left: 5px;
     }
     .bennar-text-img {
         width: 100%;
@@ -518,22 +556,22 @@
         top: 125px;
     }
     .bennar-text p {
-        font-size: 15px;
-        width: 40%;
-        margin: 0px;
+        font-size: 19px;
+        width: 55%;
+        margin: 4px 0px;
     }
     .bennar-button {
         margin-top: 10px;
     }
     .start-button a {
-        font-size: 10px;
+        font-size: 13px;
         padding: 10px 17px;
-        margin-right: 5px;
+        margin-right: 4px;
     }
     .video-button a {
-        font-size: 10px;
+        font-size: 13px;
         padding: 10px 17px;
-        margin-left: 5px;
+        margin-left: 4px;
     }
     .bennar-text-img {
         width: 100%;

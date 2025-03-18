@@ -89,14 +89,18 @@
 }
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
     .design-text h2 {
-        font-size: 34px;
+        font-size: 30px;
         width: 30%;
         font-weight: 500;
+        letter-spacing: -.5px;
+        line-height: 1.1em;
+        font-family: "GT Walsheim Medium", "GT Walsheim Medium Placeholder", sans-serif;
     }
     .design-text p {
         font-size: 20px;
         font-weight: 500;
-        width: 38%;
+        width: 40%;
+        margin: 10px 0px;
     }
     .design-text button a {
         padding: 8px 15px;
@@ -104,20 +108,27 @@
     .design-cart {
         margin-top: 5rem;
     }
+    .design-text {
+        margin-top: 0px;
+    }
 }
 @media only screen and (min-width: 425px) and (max-width: 767px) {
     .design-text h2 {
-        font-size: 25px;
-        width: 40%;
+        font-size: 26px;
+        width: 45%;
         font-weight: 500;
+        letter-spacing: -.5px;
+        line-height: 1.1em;
+        font-family: "GT Walsheim Medium", "GT Walsheim Medium Placeholder", sans-serif;
     }
     .design-text p {
-        font-size: 15px;
+        font-size: 20px;
         font-weight: 500;
-        width: 50%;
+        width: 60%;
+        margin: 10px 0px;
     }
     .design-text button a {
-        font-size: 12px;
+        font-size: 14px;
         font-weight: 500;
         letter-spacing: -0.02em;
         line-height: 1em;
@@ -129,22 +140,29 @@
         width: 300px;
     }
     .design-cart {
-        margin-top: 4rem;
+        margin-top: 5rem;
+    }
+    .design-text {
+        margin-top: 0px;
     }
 }
 @media only screen and (min-width: 375px) and (max-width: 424px) {
     .design-text h2 {
-        font-size: 25px;
-        width: 40%;
+        font-size: 26px;
+        width: 50%;
         font-weight: 500;
+        letter-spacing: -.5px;
+        line-height: 1.1em;
+        font-family: "GT Walsheim Medium", "GT Walsheim Medium Placeholder", sans-serif;
     }
     .design-text p {
-        font-size: 15px;
+        font-size: 20px;
         font-weight: 500;
-        width: 50%;
+        width: 70%;
+        margin: 10px 0px;
     }
     .design-text button a {
-        font-size: 12px;
+        font-size: 14px;
         font-weight: 500;
         letter-spacing: -0.02em;
         line-height: 1em;
@@ -156,22 +174,29 @@
         width: 300px;
     }
     .design-cart {
-        margin-top: 3rem;
+        margin-top: 5rem;
+    }
+    .design-text {
+        margin-top: 0px;
     }
 }
 @media only screen and (min-width: 320px) and (max-width: 374px) {
     .design-text h2 {
-        font-size: 20px;
-        width: 45%;
+        font-size: 26px;
+        width: 65%;
         font-weight: 500;
+        letter-spacing: -.5px;
+        line-height: 1.1em;
+        font-family: "GT Walsheim Medium", "GT Walsheim Medium Placeholder", sans-serif;
     }
     .design-text p {
-        font-size: 10px;
+        font-size: 20px;
         font-weight: 500;
-        width: 65%;
+        width: 80%;
+        margin: 10px 0px;
     }
     .design-text button a {
-        font-size: 10px;
+        font-size: 13px;
         font-weight: 500;
         letter-spacing: -0.02em;
         line-height: 1em;
@@ -183,7 +208,10 @@
         width: 250px;
     }
     .design-cart {
-        margin-top: 2rem;
+        margin-top: 5rem;
+    }
+    .design-text {
+        margin-top: 0px;
     }
 }
 
