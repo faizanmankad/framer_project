@@ -16,7 +16,7 @@ import { MdArticle } from "react-icons/md";
 import { SiXdadevelopers } from "react-icons/si";
 import { SiRobloxstudio } from "react-icons/si";
 import { FaHeart } from "react-icons/fa";
-import { MdMenu, MdClose } from 'react-icons/md';
+import { Menu, X } from 'lucide-react';
 
 
 
@@ -147,7 +147,7 @@ function Header() {
                             <Link> Sign up</Link>
                         </button>
                         <button className="burger-menu" onClick={toggleMobileMenu}>
-                            {isMobileMenuOpen ? <MdClose size={30} /> : <MdMenu size={30} />}
+                            {isMobileMenuOpen ? <X size={30}/> : <Menu size={30}/>}
                         </button>
                     </div>
                 </div>
