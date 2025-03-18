@@ -8,7 +8,8 @@
     position: relative;
     margin-top: 5rem;
     mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 45%, rgba(0, 0, 0, 0) 75%);
-    -webkit-mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 45%, rgb(0 0 0 / 7%) 100%);
+    /* -webkit-mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 45%, rgb(0 0 0 / 7%) 100%); */
+    -webkit-mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 60%, rgb(0 0 0 / 5%) 100%);
     color: rgb(255, 255, 255);
 }
 .iphone-img{
@@ -48,9 +49,9 @@
 
 }
 .testimonials-item-1{
-     border-radius: 14px;
-    border: 1px solid #e8e8e8;
-    box-shadow: 0px 0px 1px 1px #cfcece;
+    border-radius: 14px;
+    /* border: 1px solid #e8e8e8; */
+    box-shadow: 0px 0px 7px 0px #ffffffeb;
     padding: 20px;
     background-color: black;
     /* background-color: #ececec; */
