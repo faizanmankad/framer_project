@@ -8,11 +8,11 @@
     margin: 0px auto;
 }
 .contact-section{
-    padding: 40px 20px;
+    padding: 17px 20px;
     margin: 5rem 0px;
 }
 .contact-header h2{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-style: normal;
@@ -21,7 +21,7 @@
     line-height: 1.1em;
 }
 .contact-header p{
-    color: rgb(69, 67, 67);
+    color: rgb(255 255 255 / 60%);
     font-family: "Poppins", sans-serif;
     font-size: 18px;
     letter-spacing: -0.2px;
@@ -39,13 +39,13 @@
 .premium-card, .talk-card{
     width: 40%;
     border-radius: 14px;
-    border: 1px solid #e8e8e8;
-    box-shadow: 0px 0px 1px 1px #cfcece;
+    border: 1px solid #6b6b6b;
+    box-shadow: 0px 0px 1px 1px #5a5a5a;
     padding: 30px;
     margin: 10px;
 }
 .premium-card h4, .talk-card h4{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-family: "Poppins", sans-serif;
     font-size: 26px;
     letter-spacing: -.05em;
@@ -54,7 +54,7 @@
     margin-top: 20px;
 }
 .premium-card p{
-    color: rgb(69, 67, 67);
+    color: rgb(255 255 255 / 60%);
     font-family: "Poppins", sans-serif;
     font-size: 22px;
     letter-spacing: -0.2px;
@@ -70,7 +70,7 @@
     margin-top: 50px;
 }
 .primium-button button, .talk-card button{
-    background-color: #000000;
+    background-color: #ffffff;
     padding: 10px 15px;
     border-radius: 25px;
     transition: all 0.3s ease-in-out;
@@ -82,7 +82,7 @@
     opacity: 0.8;
 }
 .primium-button button a, .talk-card button a{
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-family: "Poppins", sans-serif;
     font-size: 17px;
     letter-spacing: -.05em;
@@ -90,7 +90,7 @@
     font-weight: 300;
 }
 .primium-button h6{
-    color: rgb(69, 67, 67);
+    color: rgb(255 255 255 / 60%);
     font-family: "Poppins", sans-serif;
     font-size:17px;
     letter-spacing: -0.2px;
@@ -100,13 +100,13 @@
     margin-left: 10px;
 }
 .primium-button h6 a{
-    color: rgb(41, 40, 40);
+    color: rgb(255 255 255 / 60%);
 }
 .primium-button h6 a:hover{
-    color: #000000;
+    color: #ffffff;
 }
 .talk-card p{
-    color: rgb(69, 67, 67);
+    color: rgb(255 255 255 / 60%);
     font-family: "Poppins", sans-serif;
     font-size: 22px;
     letter-spacing: -0.2px;
@@ -119,13 +119,13 @@
 .product-card, .billing-card, .emergency-card{
     width: 26%;
     border-radius: 14px;
-    border: 1px solid #e8e8e8;
-    box-shadow: 0px 0px 1px 1px #cfcece;
+    border: 1px solid #6b6b6b;
+    box-shadow: 0px 0px 1px 1px #5a5a5a;
     padding: 30px;
     margin: 10px;
 }
 .product-card h4, .billing-card h4, .emergency-card h4{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-family: "Poppins", sans-serif;
     font-size: 23px;
     letter-spacing: -.05em;
@@ -134,7 +134,7 @@
     margin-top: 20px;
 }
 .product-card p, .billing-card p, .emergency-card p{
-    color: rgb(69, 67, 67);
+    color: rgb(255 255 255 / 60%);
     font-family: "Poppins", sans-serif;
     font-size: 19px;
     letter-spacing: -0.2px;
@@ -145,8 +145,8 @@
     margin-bottom: 20px;
 }
 .product-card button a, .billing-card button a, .emergency-card button a{
-    background-color: #141414e8;
-    color: rgb(255, 255, 255);
+    background-color: #ffffffe8;
+    color: rgb(0, 0, 0);
     padding: 7px 14px;
     border-radius: 25px;
     font-family: "Poppins", sans-serif;

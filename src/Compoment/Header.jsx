@@ -78,7 +78,7 @@ function Header() {
             { name: "Sites", url: '/', p: 'Lorem ipsum dolor.', ican: <FaSitemap /> },
         ],
         helpMenu: [
-            { name: "Contact", url: '/', p: 'Lorem ipsum dolor.', ican: <IoMdContact /> },
+            { name: "Contact", url: '/Contact', p: 'Lorem ipsum dolor.', ican: <IoMdContact /> },
             { name: "Articles", url: '/', p: 'Lorem ipsum dolor.', ican: <MdArticle /> },
             { name: "Developers", url: '/', p: 'Lorem ipsum dolor.', ican: <SiXdadevelopers /> },
         ],
@@ -121,7 +121,8 @@ function Header() {
                                             <ul>
                                                 {
                                                     menuItems[item.submenu].map((subItem) => (
-                                                        <li key={subItem.name}>
+                                                        <li key={subItem.name} >
+                                                            <Link to={subItem.url}>
                                                             <div className='start-icon'>
                                                                 <span>{subItem.ican}</span>
                                                             </div>
@@ -129,6 +130,7 @@ function Header() {
                                                                 <h5>{subItem.name}</h5>
                                                                 <p>{subItem.p}</p>
                                                             </div>
+                                                            </Link>
                                                         </li>
                                                     ))
                                                 }

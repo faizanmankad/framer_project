@@ -11,6 +11,7 @@ import Scrolbar from './Compoment/Scrolbar'
 import Pricing from './Compoment/Pricing'
 import Template from './Compoment/Template'
 import Faq from './Compoment/Faq'
+import Contact from './Compoment/Contact'
 
 
 function App() {
@@ -38,6 +39,16 @@ function App() {
           <Header />
           <Pricing />
           <Faq/>
+          <Footer />
+        </>
+      )
+    },
+    {
+      path: '/Contact',
+      element: (
+        <>
+          <Header />
+          <Contact/>
           <Footer />
         </>
       )
