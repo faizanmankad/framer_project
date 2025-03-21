@@ -91,6 +91,10 @@
     .template-item{
         padding: 0px;
     }
+     .template-item img{
+        width: 300px;
+        height: 150px;
+    }
 }
 @media only screen and (min-width: 375px) and (max-width: 425px) {
     .template-header h2{
@@ -102,10 +106,10 @@
     .template-item p{
         font-size: 15px;
     }
-    /* .template-item img{
+    .template-item img{
         width: 300px;
-        height: 132px;
-    } */
+        height: 170px;
+    }
 }
 @media only screen and (min-width: 320px) and (max-width: 375px) {
     .template-header h2{
