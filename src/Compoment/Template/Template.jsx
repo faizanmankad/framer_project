@@ -17,19 +17,24 @@ function Template() {
     const settings = {
         dots: false,
         infinite: true,
-        slidesToShow: 4,
+        slidesToShow: 4.3,
         slidesToScroll: 1,
         autoplay: true,
         speed: 1000,
-        autoplaySpeed: 3000,
+        autoplaySpeed: 2000,
         cssEase: 'ease-in-out',
-        pauseOnHover: false,
+        lazyLoad: "ondemand",
+        nextArrow: false,
+        prevArrow: false,
         responsive: [
-            { breakpoint: 1024, settings: { slidesToShow: 3 } },
-            { breakpoint: 768, settings: { slidesToShow: 2 } },
-            { breakpoint: 425, settings: { slidesToShow: 1 } },
+            { breakpoint: 1024, settings: { slidesToShow: 3.3 } },
+            { breakpoint: 768, settings: { slidesToShow: 2.7 } },
+            { breakpoint: 425, settings: { slidesToShow: 1.7, slidesToScroll: 1 } },
+            { breakpoint: 375, settings: { slidesToShow: 1.3, slidesToScroll: 1 } },
+            { breakpoint: 320, settings: { slidesToShow: 1, slidesToScroll: 1 } },
         ],
     };
+    
 
     const templateImg = [
         { img: template1, title: 'Colson Bike', description: 'High-quality bicycle store' },
@@ -46,7 +51,7 @@ function Template() {
 
     return (
         <section className="template-section">
-            <div  className="container">
+            <div className="container">
                 <div className="template-card">
                     <div className="template-header">
                         <h2>Find a Pro</h2>
@@ -55,9 +60,11 @@ function Template() {
                         <Slider {...settings}>
                             {templateImg.map((template, index) => (
                                 <div key={index} className="template-item">
-                                    <img src={template.img} alt={template.title} />
-                                    <h3>{template.title}</h3>
-                                    <p>{template.description}</p>
+                                    <div className='slider-card'>
+                                        <img src={template.img} alt={template.title} />
+                                        <h3>{template.title}</h3>
+                                        <p>{template.description}</p>
+                                    </div>
                                 </div>
                             ))}
                         </Slider>

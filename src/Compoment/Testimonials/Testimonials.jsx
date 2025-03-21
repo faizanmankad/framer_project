@@ -10,14 +10,14 @@ function Testimonials() {
   const testimonials1 = {
     dots: false,
     infinite: true,
-    slidesToShow: 3,
+    slidesToShow: 2,
     slidesToScroll: 1,
     autoplay: true,
     speed: 1000,
     autoplaySpeed: 2000,
     cssEase: 'ease-in-out',
     responsive: [
-      { breakpoint: 1024, settings: { slidesToShow: 3 } },
+      { breakpoint: 1024, settings: { slidesToShow: 2 } },
       { breakpoint: 768, settings: { slidesToShow: 2 } },
       { breakpoint: 425, settings: { slidesToShow: 1 } },
     ],
@@ -25,16 +25,17 @@ function Testimonials() {
   const testimonials2 = {
     dots: false,
     infinite: true,
-    slidesToShow: 3,
-    slidesToScroll: 1,
+    slidesToShow: 1.8,
+    slidesToScroll: 0.9,
     autoplay: true,
     speed: 1000,
     autoplaySpeed: 3000,
-    cssEase: 'ease-in-out',
+    cssEase: "linear",
+    rtl: true,
     responsive: [
-      { breakpoint: 1024, settings: { slidesToShow: 3 } },
-      { breakpoint: 768, settings: { slidesToShow: 2 } },
-      { breakpoint: 425, settings: { slidesToShow: 1 } },
+      { breakpoint: 1024, settings: { slidesToShow: 1.8 } },
+      { breakpoint: 768, settings: { slidesToShow: 1.8 } },
+      { breakpoint: 425, settings: { slidesToShow: 1, slidesToScroll: 1 } },
     ],
   };
 
@@ -111,20 +112,28 @@ function Testimonials() {
         <div className='iphone-img'>
           <img src={iphone} alt="" />
         </div>
-        <div className='testimonials-heading'>
-          <span><Quote size={16} strokeWidth={1.25} />Testimonials</span>
-          <h2>Whet Our Users are Saying </h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <div className='testimonials-heading-card'>
+          <div className='testimonials-heading-item'>
+            <span><Quote size={16} strokeWidth={1.25} />Testimonials</span>
+            <h2>Whet Our Users are Saying </h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
         </div>
         <div className='testimonials-card'>
           <Slider {...testimonials1}>
             {testimonialsCard1.map((testimonialsItem1, id) => (
               <div key={id} className='testimonials-card-1'>
                 <div className='testimonials-item-1'>
-                  <img src={testimonialsItem1.image} alt={testimonialsItem1.name} />
-                  <h3>{testimonialsItem1.name}</h3>
+                  <div className='testimonials-item-card'>
+                    <div className='testimonials-item-img'>
+                      <img src={testimonialsItem1.image} alt={testimonialsItem1.name} />
+                    </div>
+                    <div className='testimonials-item-header'>
+                      <h3>{testimonialsItem1.name}</h3>
+                      <p>{testimonialsItem1.role}</p>
+                    </div>
+                  </div>
                   <p>{testimonialsItem1.text}</p>
-                  <p>{testimonialsItem1.role}</p>
                 </div>
               </div>
             ))}
@@ -132,15 +141,17 @@ function Testimonials() {
           <Slider {...testimonials2}>
             {testimonialsCard2.map((testimonialsItem2, id) => (
               <div key={id} className='testimonials-card-1'>
-                <div className='testimonials-item-1'>
-                  <div>
-                  <img src={testimonialsItem2.image} alt={testimonialsItem2.name} />
+                <div className='testimonials-item-2'>
+                  <div className='testimonials-item-card'>
+                    <div className='testimonials-item-img'>
+                      <img src={testimonialsItem2.image} alt={testimonialsItem2.name} />
+                    </div>
+                    <div className='testimonials-item-header'>
+                      <h3>{testimonialsItem2.name}</h3>
+                      <p>{testimonialsItem2.role}</p>
+                    </div>
                   </div>
-                  <div>
-                  <h3>{testimonialsItem2.name}</h3>
                   <p>{testimonialsItem2.text}</p>
-                  <p>{testimonialsItem2.role}</p>
-                  </div>
                 </div>
               </div>
             ))}

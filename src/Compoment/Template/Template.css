@@ -7,8 +7,12 @@
     max-width: 100%;
     margin: 0px auto;
 }
+.template-section button{
+    display: none;
+}
 .template-section{
     background-color: black;
+    position: relative;
 }
 .template-card{
     /* padding: 17px 20px; */
@@ -27,6 +31,9 @@
 .template-item{
     margin-top: 30px;
     transition: all 0.3s ease-in-out ;
+}
+.slider-card{
+    padding: 5px;
 }
 .template-item:hover{
     opacity: 0.5;
@@ -69,6 +76,7 @@
     .template-item p{
         font-size: 16px;
     }
+  
 }
 @media only screen and (min-width: 425px) and (max-width: 768px) {
     .template-header h2{
@@ -79,6 +87,9 @@
     }
     .template-item p{
         font-size: 15px;
+    }
+    .template-item{
+        padding: 0px;
     }
 }
 @media only screen and (min-width: 375px) and (max-width: 425px) {
@@ -91,15 +102,14 @@
     .template-item p{
         font-size: 15px;
     }
+    /* .template-item img{
+        width: 300px;
+        height: 132px;
+    } */
 }
 @media only screen and (min-width: 320px) and (max-width: 375px) {
     .template-header h2{
         font-size: 26px;
-    }
-    .template-item img {
-        width: 255px;
-        height: 170px;
-        border-radius: 14px;
     }
     .template-item h3{
         font-size: 16px;
