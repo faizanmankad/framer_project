@@ -1,4 +1,320 @@
-.testimonials{
+.testimonials {
+    background-image: url('../../assets/testimonials-benar-1.jpeg');
+    width: 100%;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    box-shadow: 0px 100px 180px 200px #000000 inset;
+    color: rgb(255, 255, 255);
+    margin-top: 5rem;
+}
+
+.iphone-img {
+    display: flex;
+    justify-content: center;
+}
+
+.iphone-img img {
+    width: 40%;
+    height: auto;
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+}
+
+.testimonials-heading-card {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.testimonials-heading-card{
+    position: absolute;
+    top: 28%;
+    left: 49.5%;
+    translate: -50% -50%;
+}
+
+.testimonials-heading-item h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 35px;
+    letter-spacing: -0.05em;
+    font-weight: 600;
+    margin-top: 10px;
+    line-height: 1.2em;
+}
+
+.testimonials-heading-item span {
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    letter-spacing: -.05em;
+    line-height: 1em;
+    font-weight: 600;
+}
+
+.testimonials-heading-item p {
+    color: rgb(153, 153, 153);
+    font-family: "Poppins", sans-serif;
+    letter-spacing: -.05em;
+    font-size: 18px;
+    line-height: 1.6em;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.testimonials-card {
+    width: 70%;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    translate: -50% -50%;
+    margin: 0 auto;
+}
+
+.testimonials-item-1, .testimonials-item-2 {
+    border-radius: 14px;
+    padding: 20px;
+    margin: 5px;
+    background-color: #000;
+    border: 2px solid #6370ff;
+    box-shadow: 1px 1px 15px 1px #6370ff inset;
+}
+
+.testimonials-card-1 img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.testimonials-card-1 h3 {
+    font-size: 20px;
+    margin-top: 10px;
+    font-family: "Poppins", sans-serif;
+    letter-spacing: -.05em;
+    line-height: 1em;
+    font-weight: 600;
+}
+
+.testimonials-card-1 p {
+    color: rgb(153, 153, 153);
+    font-family: "Poppins", sans-serif;
+    letter-spacing: -.05em;
+    line-height: 1em;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 1.6em;
+    font-weight: 500;
+}
+
+.testimonials-item-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+    margin-bottom: 10px;
+}
+
+.slick-prev:before, .slick-next:before {
+    display: none;
+}
+@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+    .testimonials-card {
+        width: 85%;
+    }
+    .testimonials-card{
+        position: absolute;
+        top: 65%;
+        left: 50%;
+        translate: -50% -50%;
+    }
+    .iphone-img img {
+        width: 50%;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px)   {
+    .testimonials-card {
+        width: 85%;
+    }
+    .testimonials-card{
+        position: absolute;
+        top: 65%;
+        left: 50%;
+        translate: -50% -50%;
+    }
+    .iphone-img img {
+        width: 60%;
+    }
+    .testimonials-card{
+        top: 67%;
+        left: 50%;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 768px)  {
+    .testimonials {
+        box-shadow: 0px 0px 290px 110px #000000 inset;
+    }
+    .testimonials-heading-item h2 {
+        font-size: 28px;
+    }
+    .testimonials-heading-item p {
+        font-size: 16px;
+    }
+    .testimonials-card-1 p {
+        font-size: 14px;
+    }
+    .iphone-img img {
+        width: 75%;
+    }
+    .testimonials {
+        box-shadow: 0px 0px 150px 40px #000000 inset;
+    }
+    .testimonials-card-1 img {
+        width: 40px;
+        height: 40px;
+    }
+    .testimonials-card-1 h3 {
+        font-size: 16px;
+        margin-top: 0px;
+    }
+    .testimonials-card-1 p {
+        font-size: 14px;
+    }
+    .testimonials-item-1, .testimonials-item-2 {
+        padding: 15px;
+        margin: 3px;
+    }
+    .testimonials-card{
+        top: 67%;
+        left: 50%;
+    }
+    .testimonials-heading-card{
+        left: 49%;
+    }
+}
+
+@media only screen and (min-width: 425px) and (max-width: 600px){
+    .iphone-img img {
+        width: 100%;
+    }
+    .testimonials {
+        box-shadow: 0px 0px 290px 110px #000000 inset;
+    }
+    .testimonials-heading-item h2 {
+        font-size: 28px;
+    }
+    .testimonials-heading-item p {
+        font-size: 16px;
+    }
+    .testimonials-card-1 p {
+        font-size: 14px;
+    }
+    .testimonials {
+        box-shadow: 0px 0px 150px 40px #000000 inset;
+    }
+    .testimonials-card-1 img {
+        width: 40px;
+        height: 40px;
+    }
+    .testimonials-card-1 h3 {
+        font-size: 16px;
+        margin-top: 0px;
+    }
+    .testimonials-card-1 p {
+        font-size: 14px;
+    }
+    .testimonials-item-1, .testimonials-item-2 {
+        padding: 20px;
+        margin: 5px;
+    }
+    .testimonials-card{
+        top: 67%;
+        left: 50%;
+    }
+    .testimonials-heading-card{
+        left: 49%;
+    }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 424px) {
+    .testimonials {
+        box-shadow: 0px 0px 150px 40px #000000 inset;
+    }
+    .testimonials-heading-item h2 {
+        font-size: 22px;
+    }
+    .testimonials-heading-item p {
+        font-size: 14px;
+    }
+    .testimonials-card-1 img {
+        width: 40px;
+        height: 40px;
+    }
+    .testimonials-card-1 h3 {
+        font-size: 16px;
+        margin-top: 0px;
+    }
+    .testimonials-card-1 p {
+        font-size: 14px;
+    }
+    .iphone-img img {
+        width: 100%;
+    }
+    .testimonials-item-1, .testimonials-item-2 {
+        padding: 15px;
+        margin: 3px;
+    }
+    .testimonials-card{
+        top: 67%;
+        left: 50%;
+    }
+    .testimonials-heading-card{
+        left: 49%;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 375px) {
+    .testimonials {
+        box-shadow: 0px 0px 150px 10px #000000 inset;
+    }
+    .testimonials-heading-item h2 {
+        font-size: 20px;
+    }
+    .testimonials-heading-item p {
+        font-size: 13px;
+    }
+    .testimonials-card-1 img {
+        width: 35px;
+        height: 35px;
+    }
+    .testimonials-card-1 h3 {
+        font-size: 14px;
+    }
+    .testimonials-card-1 p {
+        font-size: 12px;
+    }
+    .iphone-img img {
+        width: 100%;
+    }
+    .testimonials-item-2{
+        display: none;
+    }
+    .testimonials-card{
+        top: 70%;
+        left: 50%;
+    }
+    .testimonials-heading-card{
+        top: 34%;
+        left: 49%;
+    }
+}
+
+/* .testimonials{
     background-image: url('../../assets/testimonials-benar-1.jpeg');
     width: 100%;
     height: 850px;
@@ -7,8 +323,8 @@
     background-size: cover;
     position: relative;
     margin-top: 5rem;
-    /* mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 45%, rgba(0, 0, 0, 0) 75%); */
-    /* -webkit-mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 50%, rgb(0 0 0 / 0%) 75%); */
+    mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 45%, rgba(0, 0, 0, 0) 75%);
+    -webkit-mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 50%, rgb(0 0 0 / 0%) 75%);
     box-shadow: 0px 100px 180px 200px #000000 inset;
     color: rgb(255, 255, 255);
 }
@@ -82,8 +398,8 @@
     border: 2px solid #6370ff;
     box-shadow: 1px 1px 15px 1px #6370ff inset;
     width: 100%;
-    /* mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 45%, rgba(0, 0, 0, 0) 75%);
-    -webkit-mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 55%, rgb(0 0 0 / 0%) 145%); */
+    mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 45%, rgba(0, 0, 0, 0) 75%);
+    -webkit-mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 55%, rgb(0 0 0 / 0%) 145%);
 }
 
 .testimonials-card-1{
@@ -321,4 +637,4 @@
     .testimonials-item-2{
         display: none;
     }  
-}
+} */
