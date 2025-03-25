@@ -29,7 +29,8 @@ function Template() {
         responsive: [
             { breakpoint: 1024, settings: { slidesToShow: 3.3 } },
             { breakpoint: 768, settings: { slidesToShow: 2.7 } },
-            { breakpoint: 425, settings: { slidesToShow: 1.7, slidesToScroll: 1 } },
+            { breakpoint: 500, settings: { slidesToShow: 2 } },
+            { breakpoint: 425, settings: { slidesToShow: 1.6, slidesToScroll: 1 } },
             { breakpoint: 375, settings: { slidesToShow: 1.3, slidesToScroll: 1 } },
             { breakpoint: 320, settings: { slidesToShow: 1, slidesToScroll: 1 } },
         ],
@@ -75,3 +76,5 @@ function Template() {
 }
 
 export default Template;
+
+
