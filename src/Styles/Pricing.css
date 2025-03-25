@@ -9,8 +9,7 @@
 }
 .pricing-section{
     background-color: black;
-    position: relative;
-    top: 100px;
+    margin-top: 5rem;
     margin-bottom: 5rem;
 }
 .pricing{

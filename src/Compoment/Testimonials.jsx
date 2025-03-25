@@ -1,5 +1,5 @@
-import '../Testimonials/Testimonials.css'
-import iphone from '../../assets/testimonials-img1.png'
+import '../Styles/Testimonials.css'
+import iphone from '../assets/testimonials-img1.png'
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';

@@ -1,11 +1,11 @@
-import '../Websites/Websites.css'
+import '../Styles/web.css'
 import { Link } from 'react-router-dom'
-import webimg5 from '../../assets/web-img-1.jpg'
-import webimg2 from '../../assets/web-img-2.jpg'
-import webimg3 from '../../assets/web-img-3.jpg'
-import webimg4 from '../../assets/web-img-4.jpg'
-import webimg1 from '../../assets/template.jpg'
-import webimg6 from '../../assets/web-img-6.jpg'
+import webimg1 from '../assets/template.jpg'
+import webimg2 from '../assets/web-img-2.jpg'
+import webimg3 from '../assets/web-img-3.jpg'
+import webimg4 from '../assets/web-img-4.jpg'
+import webimg5 from '../assets/web-img-1.jpg'
+import webimg6 from '../assets/web-img-6.jpg'
 
 
 function Websites() {
