@@ -37,6 +37,14 @@
     translate: -50% -50%;
 }
 
+.testimonials-heading-item{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 .testimonials-heading-item h2 {
     font-family: "Poppins", sans-serif;
     font-size: 35px;
@@ -44,6 +52,7 @@
     font-weight: 600;
     margin-top: 10px;
     line-height: 1.2em;
+    width: 65%;
 }
 
 .testimonials-heading-item span {
@@ -65,6 +74,7 @@
     line-height: 1.6em;
     font-weight: 500;
     margin-top: 10px;
+    width: 65%;
 }
 
 .testimonials-card {
@@ -80,9 +90,11 @@
     border-radius: 14px;
     padding: 20px;
     margin: 5px;
-    background-color: #000;
-    border: 2px solid #6370ff;
-    box-shadow: 1px 1px 15px 1px #6370ff inset;
+    background-color: #111111fc;
+    /* border: 2px solid #6370ff; */
+    border: 2px solid #6370ff96;
+    /* box-shadow: 1px 1px 15px 1px #6370ff inset; */
+    box-shadow:1px 1px 15px 1px #6370ff9e inset;
 }
 
 .testimonials-card-1 img {
@@ -122,6 +134,21 @@
 .slick-prev:before, .slick-next:before {
     display: none;
 }
+.slick-slide .testimonials-item-2{
+    transition: all 0.3s ease-in-out;
+}
+.slick-center .testimonials-item-2{
+    /* background-image:linear-gradient(#151b5c, rgb(0, 0, 0), #121750); */
+    background-image:linear-gradient(#222c98, rgb(0, 0, 0), #212773);
+    background-color: #000000;
+    border: 2px solid #6370ff;
+    box-shadow: 0px 0px 13px 0px #6370ff;
+    opacity: 1;
+    /* box-shadow: 0px 0px 15px 0px #121750; */
+}
+
+
+
 @media only screen and (min-width: 1024px) and (max-width: 1200px) {
     .testimonials-card {
         width: 85%;
@@ -136,6 +163,7 @@
         width: 50%;
     }
 }
+
 @media only screen and (min-width: 768px) and (max-width: 1024px)   {
     .testimonials-card {
         width: 85%;
@@ -207,9 +235,11 @@
     }
     .testimonials-heading-item h2 {
         font-size: 28px;
+        width: 100%;
     }
     .testimonials-heading-item p {
         font-size: 16px;
+        width: 100%;
     }
     .testimonials-card-1 p {
         font-size: 14px;
@@ -247,9 +277,11 @@
     }
     .testimonials-heading-item h2 {
         font-size: 22px;
+        width: 100%;
     }
     .testimonials-heading-item p {
         font-size: 14px;
+        width: 100%;
     }
     .testimonials-card-1 img {
         width: 40px;
@@ -284,9 +316,11 @@
     }
     .testimonials-heading-item h2 {
         font-size: 20px;
+        width: 100%;
     }
     .testimonials-heading-item p {
         font-size: 13px;
+        width: 100%;
     }
     .testimonials-card-1 img {
         width: 35px;
